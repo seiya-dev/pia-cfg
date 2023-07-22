@@ -1,0 +1,782 @@
+data:
+  - id: ad
+    name: AD Andorra
+    dns: ad.privacy.network
+    port_forward: true
+    geo: true
+  - id: ae
+    name: AE United Arab Emirates
+    dns: ae.privacy.network
+    port_forward: true
+    geo: false
+  - id: al
+    name: AL Albania
+    dns: al.privacy.network
+    port_forward: true
+    geo: false
+  - id: ar
+    name: AR Argentina
+    dns: ar.privacy.network
+    port_forward: true
+    geo: true
+  - id: au_adelaide-pf
+    name: AU Adelaide
+    dns: au-adelaide-pf.privacy.network
+    port_forward: true
+    geo: false
+  - id: au_australia-so
+    name: AU Australia Streaming Optimized
+    dns: au-australia-so.privacy.network
+    port_forward: true
+    geo: false
+  - id: au_brisbane-pf
+    name: AU Brisbane
+    dns: au-brisbane-pf.privacy.network
+    port_forward: true
+    geo: false
+  - id: aus
+    name: AU Sydney
+    dns: au-sydney.privacy.network
+    port_forward: true
+    geo: false
+  - id: aus_melbourne
+    name: AU Melbourne
+    dns: aus-melbourne.privacy.network
+    port_forward: true
+    geo: false
+  - id: aus_perth
+    name: AU Perth
+    dns: aus-perth.privacy.network
+    port_forward: true
+    geo: false
+  - id: austria
+    name: AT Austria
+    dns: austria.privacy.network
+    port_forward: true
+    geo: false
+  - id: ba
+    name: BA Bosnia and Herzegovina
+    dns: ba.privacy.network
+    port_forward: true
+    geo: false
+  - id: bahamas
+    name: BS Bahamas
+    dns: bahamas.privacy.network
+    port_forward: true
+    geo: true
+  - id: bangladesh
+    name: BD Bangladesh
+    dns: bangladesh.privacy.network
+    port_forward: true
+    geo: true
+  - id: belgium
+    name: BE Belgium
+    dns: brussels.privacy.network
+    port_forward: true
+    geo: false
+  - id: bogota
+    name: CO Colombia
+    dns: bogota.privacy.network
+    port_forward: true
+    geo: true
+  - id: br
+    name: BR Brazil
+    dns: br.privacy.network
+    port_forward: true
+    geo: true
+  - id: ca
+    name: CA Montreal
+    dns: ca-montreal.privacy.network
+    port_forward: true
+    geo: false
+  - id: ca_ontario
+    name: CA Ontario
+    dns: ca-ontario.privacy.network
+    port_forward: true
+    geo: false
+  - id: ca_toronto
+    name: CA Toronto
+    dns: ca-toronto.privacy.network
+    port_forward: true
+    geo: false
+  - id: ca_vancouver
+    name: CA Vancouver
+    dns: ca-vancouver.privacy.network
+    port_forward: true
+    geo: false
+  - id: cambodia
+    name: KH Cambodia
+    dns: cambodia.privacy.network
+    port_forward: true
+    geo: true
+  - id: china
+    name: CN China
+    dns: china.privacy.network
+    port_forward: true
+    geo: true
+  - id: cyprus
+    name: CY Cyprus
+    dns: cyprus.privacy.network
+    port_forward: true
+    geo: true
+  - id: czech
+    name: CZ Czech Republic
+    dns: czech.privacy.network
+    port_forward: true
+    geo: false
+  - id: de-frankfurt
+    name: DE Frankfurt
+    dns: de-frankfurt.privacy.network
+    port_forward: true
+    geo: false
+  - id: de_berlin
+    name: DE Berlin
+    dns: de-berlin.privacy.network
+    port_forward: true
+    geo: false
+  - id: denmark
+    name: DK Copenhagen
+    dns: denmark.privacy.network
+    port_forward: true
+    geo: false
+  - id: denmark_2
+    name: DK Streaming Optimized
+    dns: denmark-2.privacy.network
+    port_forward: true
+    geo: false
+  - id: dz
+    name: DZ Algeria
+    dns: dz.privacy.network
+    port_forward: true
+    geo: true
+  - id: ee
+    name: EE Estonia
+    dns: ee.privacy.network
+    port_forward: true
+    geo: false
+  - id: egypt
+    name: EG Egypt
+    dns: egypt.privacy.network
+    port_forward: true
+    geo: true
+  - id: es-valencia
+    name: ES Valencia
+    dns: es-valencia.privacy.network
+    port_forward: true
+    geo: false
+  - id: fi
+    name: FI Helsinki
+    dns: fi.privacy.network
+    port_forward: true
+    geo: false
+  - id: fi_2
+    name: FI Streaming Optimized
+    dns: fi-2.privacy.network
+    port_forward: true
+    geo: false
+  - id: france
+    name: FR France
+    dns: france.privacy.network
+    port_forward: true
+    geo: false
+  - id: georgia
+    name: GE Georgia
+    dns: georgia.privacy.network
+    port_forward: true
+    geo: true
+  - id: gr
+    name: GR Greece
+    dns: gr.privacy.network
+    port_forward: true
+    geo: false
+  - id: greenland
+    name: GL Greenland
+    dns: greenland.privacy.network
+    port_forward: true
+    geo: true
+  - id: hk
+    name: HK Hong Kong
+    dns: hk.privacy.network
+    port_forward: true
+    geo: true
+  - id: hungary
+    name: HU Hungary
+    dns: hungary.privacy.network
+    port_forward: true
+    geo: false
+  - id: in
+    name: IN India
+    dns: in.privacy.network
+    port_forward: true
+    geo: true
+  - id: ireland
+    name: IE Ireland
+    dns: ireland.privacy.network
+    port_forward: true
+    geo: false
+  - id: is
+    name: IS Iceland
+    dns: is.privacy.network
+    port_forward: true
+    geo: false
+  - id: israel
+    name: IL Israel
+    dns: israel.privacy.network
+    port_forward: true
+    geo: false
+  - id: italy
+    name: IT Milano
+    dns: italy.privacy.network
+    port_forward: true
+    geo: false
+  - id: italy_2
+    name: IT Streaming Optimized
+    dns: italy-2.privacy.network
+    port_forward: true
+    geo: false
+  - id: jakarta
+    name: ID Indonesia
+    dns: jakarta.privacy.network
+    port_forward: true
+    geo: true
+  - id: japan
+    name: JP Tokyo
+    dns: japan.privacy.network
+    port_forward: true
+    geo: false
+  - id: japan_2
+    name: JP Streaming Optimized
+    dns: japan-2.privacy.network
+    port_forward: true
+    geo: false
+  - id: kazakhstan
+    name: KZ Kazakhstan
+    dns: kazakhstan.privacy.network
+    port_forward: true
+    geo: true
+  - id: kualalumpur
+    name: MY Malaysia
+    dns: kualalumpur.privacy.network
+    port_forward: true
+    geo: true
+  - id: liechtenstein
+    name: LI Liechtenstein
+    dns: liechtenstein.privacy.network
+    port_forward: true
+    geo: true
+  - id: lt
+    name: LT Lithuania
+    dns: lt.privacy.network
+    port_forward: true
+    geo: false
+  - id: lu
+    name: LU Luxembourg
+    dns: lu.privacy.network
+    port_forward: true
+    geo: false
+  - id: lv
+    name: LV Latvia
+    dns: lv.privacy.network
+    port_forward: true
+    geo: false
+  - id: macau
+    name: MO Macao
+    dns: macau.privacy.network
+    port_forward: true
+    geo: true
+  - id: malta
+    name: MT Malta
+    dns: malta.privacy.network
+    port_forward: true
+    geo: true
+  - id: man
+    name: IM Isle of Man
+    dns: man.privacy.network
+    port_forward: true
+    geo: true
+  - id: md
+    name: MD Moldova
+    dns: md.privacy.network
+    port_forward: true
+    geo: false
+  - id: mexico
+    name: MX Mexico
+    dns: mexico.privacy.network
+    port_forward: true
+    geo: true
+  - id: mk
+    name: MK North Macedonia
+    dns: mk.privacy.network
+    port_forward: true
+    geo: false
+  - id: monaco
+    name: MC Monaco
+    dns: monaco.privacy.network
+    port_forward: true
+    geo: true
+  - id: mongolia
+    name: MN Mongolia
+    dns: mongolia.privacy.network
+    port_forward: true
+    geo: true
+  - id: montenegro
+    name: ME Montenegro
+    dns: montenegro.privacy.network
+    port_forward: true
+    geo: true
+  - id: morocco
+    name: MA Morocco
+    dns: morocco.privacy.network
+    port_forward: true
+    geo: true
+  - id: nigeria
+    name: NG Nigeria
+    dns: nigeria.privacy.network
+    port_forward: true
+    geo: true
+  - id: nl_amsterdam
+    name: NL Netherlands
+    dns: nl-amsterdam.privacy.network
+    port_forward: true
+    geo: false
+  - id: no
+    name: NO Norway
+    dns: no.privacy.network
+    port_forward: true
+    geo: false
+  - id: nz
+    name: NZ New Zealand
+    dns: nz.privacy.network
+    port_forward: true
+    geo: false
+  - id: panama
+    name: PA Panama
+    dns: panama.privacy.network
+    port_forward: true
+    geo: true
+  - id: philippines
+    name: PH Philippines
+    dns: philippines.privacy.network
+    port_forward: true
+    geo: true
+  - id: poland
+    name: PL Poland
+    dns: poland.privacy.network
+    port_forward: true
+    geo: false
+  - id: pt
+    name: PT Portugal
+    dns: pt.privacy.network
+    port_forward: true
+    geo: true
+  - id: qatar
+    name: QA Qatar
+    dns: qatar.privacy.network
+    port_forward: true
+    geo: true
+  - id: ro
+    name: RO Romania
+    dns: ro.privacy.network
+    port_forward: true
+    geo: false
+  - id: rs
+    name: RS Serbia
+    dns: rs.privacy.network
+    port_forward: true
+    geo: false
+  - id: sanjose
+    name: CR Costa Rica
+    dns: sanjose.privacy.network
+    port_forward: true
+    geo: true
+  - id: santiago
+    name: CL Chile
+    dns: santiago.privacy.network
+    port_forward: true
+    geo: true
+  - id: saudiarabia
+    name: SA Saudi Arabia
+    dns: saudiarabia.privacy.network
+    port_forward: true
+    geo: true
+  - id: sg
+    name: SG Singapore
+    dns: sg.privacy.network
+    port_forward: true
+    geo: false
+  - id: sk
+    name: SK Slovakia
+    dns: sk.privacy.network
+    port_forward: true
+    geo: false
+  - id: slovenia
+    name: SI Slovenia
+    dns: slovenia.privacy.network
+    port_forward: true
+    geo: false
+  - id: sofia
+    name: BG Bulgaria
+    dns: sofia.privacy.network
+    port_forward: true
+    geo: true
+  - id: spain
+    name: ES Madrid
+    dns: spain.privacy.network
+    port_forward: true
+    geo: false
+  - id: srilanka
+    name: LK Sri Lanka
+    dns: srilanka.privacy.network
+    port_forward: true
+    geo: true
+  - id: sweden
+    name: SE Stockholm
+    dns: sweden.privacy.network
+    port_forward: true
+    geo: false
+  - id: sweden_2
+    name: SE Streaming Optimized
+    dns: sweden-2.privacy.network
+    port_forward: true
+    geo: false
+  - id: swiss
+    name: CH Switzerland
+    dns: swiss.privacy.network
+    port_forward: true
+    geo: false
+  - id: taiwan
+    name: TW Taiwan
+    dns: taiwan.privacy.network
+    port_forward: true
+    geo: true
+  - id: tr
+    name: TR Turkey
+    dns: tr.privacy.network
+    port_forward: true
+    geo: true
+  - id: ua
+    name: UA Ukraine
+    dns: ua.privacy.network
+    port_forward: true
+    geo: true
+  - id: uk
+    name: UK London
+    dns: uk-london.privacy.network
+    port_forward: true
+    geo: false
+  - id: uk_2
+    name: UK Streaming Optimized
+    dns: uk-2.privacy.network
+    port_forward: true
+    geo: false
+  - id: uk_manchester
+    name: UK Manchester
+    dns: uk-manchester.privacy.network
+    port_forward: true
+    geo: false
+  - id: uk_southampton
+    name: UK Southampton
+    dns: uk-southampton.privacy.network
+    port_forward: true
+    geo: false
+  - id: us-baltimore
+    name: US Baltimore
+    dns: us-baltimore.privacy.network
+    port_forward: false
+    geo: true
+  - id: us-honolulu
+    name: US Honolulu
+    dns: us-honolulu.privacy.network
+    port_forward: false
+    geo: true
+  - id: us-newjersey
+    name: US East
+    dns: us-newjersey.privacy.network
+    port_forward: false
+    geo: false
+  - id: us-saltlakecity
+    name: US Salt Lake City
+    dns: us-saltlakecity.privacy.network
+    port_forward: false
+    geo: true
+  - id: us-streaming
+    name: US East Streaming Optimized
+    dns: us-streaming.privacy.network
+    port_forward: false
+    geo: false
+  - id: us-streaming-2
+    name: US West Streaming Optimized
+    dns: us-streaming-2.privacy.network
+    port_forward: false
+    geo: false
+  - id: us-wilmington
+    name: US Wilmington
+    dns: us-wilmington.privacy.network
+    port_forward: false
+    geo: true
+  - id: us3
+    name: US West
+    dns: us3.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_alabama-pf
+    name: US Alabama
+    dns: us-alabama-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_alaska-pf
+    name: US Alaska
+    dns: us-alaska-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_arkansas-pf
+    name: US Arkansas
+    dns: us-arkansas-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_atlanta
+    name: US Atlanta
+    dns: us-atlanta.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_california
+    name: US California
+    dns: us-california.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_chicago
+    name: US Chicago
+    dns: us-chicago.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_connecticut-pf
+    name: US Connecticut
+    dns: us-connecticut-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_denver
+    name: US Denver
+    dns: us-denver.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_florida
+    name: US Florida
+    dns: us-florida.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_houston
+    name: US Houston
+    dns: us-houston.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_idaho-pf
+    name: US Idaho
+    dns: us-idaho-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_indiana-pf
+    name: US Indiana
+    dns: us-indiana-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_iowa-pf
+    name: US Iowa
+    dns: us-iowa-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_kansas-pf
+    name: US Kansas
+    dns: us-kansas-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_kentucky-pf
+    name: US Kentucky
+    dns: us-kentucky-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_las_vegas
+    name: US Las Vegas
+    dns: us-lasvegas.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_louisiana-pf
+    name: US Louisiana
+    dns: us-louisiana-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_maine-pf
+    name: US Maine
+    dns: us-maine-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_massachusetts-pf
+    name: US Massachusetts
+    dns: us-massachusetts-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_michigan-pf
+    name: US Michigan
+    dns: us-michigan-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_minnesota-pf
+    name: US Minnesota
+    dns: us-minnesota-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_mississippi-pf
+    name: US Mississippi
+    dns: us-mississippi-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_missouri-pf
+    name: US Missouri
+    dns: us-missouri-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_montana-pf
+    name: US Montana
+    dns: us-montana-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_nebraska-pf
+    name: US Nebraska
+    dns: us-nebraska-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_new_hampshire-pf
+    name: US New Hampshire
+    dns: us-new-hampshire-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_new_mexico-pf
+    name: US New Mexico
+    dns: us-new-mexico-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_new_york_city
+    name: US New York
+    dns: us-newyorkcity.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_north_carolina-pf
+    name: US North Carolina
+    dns: us-north-carolina-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_north_dakota-pf
+    name: US North Dakota
+    dns: us-north-dakota-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_ohio-pf
+    name: US Ohio
+    dns: us-ohio-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_oklahoma-pf
+    name: US Oklahoma
+    dns: us-oklahoma-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_oregon-pf
+    name: US Oregon
+    dns: us-oregon-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_pennsylvania-pf
+    name: US Pennsylvania
+    dns: us-pennsylvania-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_rhode_island-pf
+    name: US Rhode Island
+    dns: us-rhode-island-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_seattle
+    name: US Seattle
+    dns: us-seattle.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_silicon_valley
+    name: US Silicon Valley
+    dns: us-siliconvalley.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_south_carolina-pf
+    name: US South Carolina
+    dns: us-south-carolina-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_south_dakota-pf
+    name: US South Dakota
+    dns: us-south-dakota-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_south_west
+    name: US Texas
+    dns: us-texas.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_tennessee-pf
+    name: US Tennessee
+    dns: us-tennessee-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_vermont-pf
+    name: US Vermont
+    dns: us-vermont-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_virginia-pf
+    name: US Virginia
+    dns: us-virginia-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_washington_dc
+    name: US Washington DC
+    dns: us-washingtondc.privacy.network
+    port_forward: false
+    geo: false
+  - id: us_west_virginia-pf
+    name: US West Virginia
+    dns: us-west-virginia-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_wisconsin-pf
+    name: US Wisconsin
+    dns: us-wisconsin-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: us_wyoming-pf
+    name: US Wyoming
+    dns: us-wyoming-pf.privacy.network
+    port_forward: false
+    geo: true
+  - id: venezuela
+    name: VE Venezuela
+    dns: venezuela.privacy.network
+    port_forward: true
+    geo: true
+  - id: vietnam
+    name: VN Vietnam
+    dns: vietnam.privacy.network
+    port_forward: true
+    geo: true
+  - id: yerevan
+    name: AM Armenia
+    dns: yerevan.privacy.network
+    port_forward: true
+    geo: true
+  - id: za
+    name: ZA South Africa
+    dns: za.privacy.network
+    port_forward: true
+    geo: false
+  - id: zagreb
+    name: HR Croatia
+    dns: zagreb.privacy.network
+    port_forward: true
+    geo: true
+updated: 1682087292

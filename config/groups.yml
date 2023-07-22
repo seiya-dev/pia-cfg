@@ -1,0 +1,22 @@
+ikev2:
+  - 500
+  - 4500
+meta:
+  - 443
+  - 8080
+openvpn_tcp:
+  - 80
+  - 443
+  - 853
+  - 8443
+openvpn_udp:
+  - 8080
+  - 853
+  - 123
+  - 53
+socks:
+  - 1080
+shadowsocks:
+  - 443
+wireguard:
+  - 1337

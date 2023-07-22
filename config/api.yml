@@ -1,0 +1,9 @@
+genToken: https://privateinternetaccess.com/gtoken/generateToken
+refToken: https://privateinternetaccess.com/gtoken/refreshToken
+regList: https://serverlist.piaservers.net/vpninfo/regions
+srvList: https://serverlist.piaservers.net/vpninfo/servers/v6
+sssList: https://serverlist.piaservers.net/shadow_socks
+prxList: https://serverlist.piaservers.net/proxy
+prxStat: https://www.privateinternetaccess.com/api/client/services/https/status
+prxTokn: https://www.privateinternetaccess.com/api/client/v2/token
+usrStat: https://www.privateinternetaccess.com/api/client/v2/account

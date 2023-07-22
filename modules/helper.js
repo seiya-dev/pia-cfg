@@ -83,5 +83,9 @@ hlp.makeIpArrSel = (wgIps) => {
     return ipList;
 };
 
+hlp.sleep = (time) => {
+    return new Promise(resolve => setTimeout(resolve, time))
+}
+
 // end
 export default hlp;

@@ -480,7 +480,8 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         wgconf.push(`PublicKey = ${wgdata.server_key}`);
         wgconf.push(`Endpoint = ${wgdata.endpoint}`);
         // wgconf.push(`PresharedKey = `);
-        wgconf.push('AllowedIPs = 0.0.0.0/1, 128.0.0.0/1');
+        wgconf.push('AllowedIPs = 0.0.0.0/1, 128.0.0.0/1'); 
+        // 0.0.0.0/0 not work properly with some apps
         wgconf.push('PersistentKeepalive = 25');
         wgconf.push('');
         

@@ -1,16 +1,18 @@
 import fs from 'fs';
 import * as url from 'url';
+const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 import YAML from 'yaml';
 import ask from './modules/ask.js';
-import req from './modules/req-got.js';
-import ProxyAgent from 'proxy-agent';
+import req from './modules/req.js';
+import { HttpsProxyAgent } from 'https-proxy-agent';
 
 const ufiles = {
     api: __dirname + './config/api.yml',
+    srv: __dirname + './config/servers_proxy.yml',
     usr: __dirname + './config/user_proxy.yml',
-};
+}
 
 // set data
 const data = {};
@@ -30,6 +32,8 @@ for(let k of Object.keys(ufiles)){
     }
 }
 
+// ---
+
 await getStatus();
 if(!data.usr.token){
     await getToken();
@@ -47,21 +51,24 @@ async function getStatus(){
         const jdata = JSON.parse(rdata.res.body);
         console.log(jdata);
     }
+    else{
+        console.log(rdata);
+    }
 }
 
 async function getToken(){
-    const piaLogin = await ask({
+    const piaUser = await ask({
         type: 'input',
-        message: 'PIA Login',
+        message: 'PIA username (p#######)',
     });
     const piaPass = await ask({
         type: 'password',
-        message: 'PIA Pass.',
+        message: 'PIA password',
     });
     const rdata = await req(data.api.prxTokn, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', },
-        body: JSON.stringify({ username: piaLogin, password: piaPass, }),
+        body: JSON.stringify({ username: piaUser, password: piaPass, }),
         timeout: { request: 5000 },
     });
     if(rdata.ok){
@@ -76,7 +83,8 @@ async function getUser(){
     });
     if(rdata.ok){
         const jdata = JSON.parse(rdata.res.body);
-        console.log(jdata);
+        console.log('Username     ', jdata.username);
+        console.log('Days remained', jdata.days_remaining);
     }
 }
 
@@ -84,18 +92,38 @@ async function testProxy(){
     const rdata = await req(data.api.prxList);
     if(rdata.ok){
         const jdata = JSON.parse(rdata.res.body);
-        console.log(jdata[0]);
+        const pdata = [];
+        for(const p of jdata){
+            pdata.push({ cc: p.iso, dns: p.dns, ip: p.ping, });
+        }
+        
+        jdata.sort((a, b) => {
+            if(a.dns < b.dns){
+                return -1;
+            }
+            if(a.dns > b.dns){
+                return 1;
+            }
+            return 0;
+        })
+        fs.writeFileSync(ufiles.srv, YAML.stringify(jdata));
+        
+        const prxData = jdata.reverse()[0];
         const tokenUser = data.usr.token.substring(0, data.usr.token.length / 2);
         const tokenPass = data.usr.token.substring(data.usr.token.length / 2);
         const date = new Date().getTime();
+        
         const testReq = await req(data.api.prxStat + '?' + date, {
-            agent: { https: new ProxyAgent(`https://${tokenUser}:${tokenPass}@${jdata[0].dns}/`) },
+            agent: { https: new HttpsProxyAgent(`https://${tokenUser}:${tokenPass}@${prxData.dns}/`) },
         });
+        
         if(testReq.ok){
-            console.log(testReq.res.body);
+            console.log(JSON.parse(testReq.res.body));
         }
         else{
             console.log(testReq);
         }
     }
 }
+
+// ---

@@ -526,4 +526,3 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
     -G --data-urlencode "token=${PIA_TOKEN}" \
     "https://uk-manchester.privacy.network:19999/getSignature")"
 */
-

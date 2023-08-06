@@ -273,7 +273,7 @@ data:
     name: LU Luxembourg
     dns: lu.privacy.network
     port_forward: true
-    geo: false
+    geo: true
   - id: lv
     name: LV Latvia
     dns: lv.privacy.network
@@ -779,4 +779,4 @@ data:
     dns: zagreb.privacy.network
     port_forward: true
     geo: true
-updated: 1682087292
+updated: 1691328105

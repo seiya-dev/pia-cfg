@@ -778,5 +778,5 @@ data:
     name: HR Croatia
     dns: zagreb.privacy.network
     port_forward: true
-    geo: true
-updated: 1691328105
+    geo: false
+updated: 1694693537

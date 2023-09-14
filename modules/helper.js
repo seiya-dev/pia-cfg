@@ -2,7 +2,11 @@ const hlp = {};
 hlp.maxPing = 9.999;
 
 hlp.rname = (countryCode) => {
-    return new Intl.DisplayNames(['en'], {type: 'region'}).of(countryCode);
+    const intlName = new Intl.DisplayNames(['en'], {type: 'region'}).of(countryCode);
+    if(intlName == 'Türkiye'){
+        return 'Turkey';
+    }
+    return intlName;
 };
 
 hlp.sortById = (a, b) => {

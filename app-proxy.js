@@ -49,7 +49,7 @@ async function getStatus(){
     const rdata = await req(url);
     if(rdata.ok){
         const jdata = JSON.parse(rdata.res.body);
-        console.log(jdata);
+        // console.log(jdata);
     }
     else{
         console.log(rdata);
@@ -94,7 +94,8 @@ async function testProxy(){
         const jdata = JSON.parse(rdata.res.body);
         const pdata = [];
         for(const p of jdata){
-            pdata.push({ cc: p.iso, dns: p.dns, ip: p.ping, });
+            const d = { cc: p.iso, dns: p.dns, ip: p.ping, };
+            pdata.push(d);
         }
         
         jdata.sort((a, b) => {
@@ -118,7 +119,23 @@ async function testProxy(){
         });
         
         if(testReq.ok){
-            console.log(JSON.parse(testReq.res.body));
+            // console.log(JSON.parse(testReq.res.body));
+            console.log('Proxy Login:', tokenUser);
+            console.log('Proxy Pass:', tokenPass);
+            
+            pdata.sort((a, b) => {
+                if (a.cc < b.cc && a.dns < b.dns) {
+                    return -1;
+                }
+                else if(a.cc > b.cc && a.dns > b.dns){
+                    return 1;
+                }
+                return 0;
+            });
+            
+            for(const srv of pdata){
+                console.log(`${srv.cc}\t${srv.ip}\t\t${srv.dns}`);
+            }
         }
         else{
             console.log(testReq);

@@ -1,14 +1,12 @@
-import ask from './ask.js';
+import { input, password } from '@inquirer/prompts';
 import req from './req.js';
 
 // gen token
 async function getToken (api, pia_user, pia_pass) {
-    pia_user = pia_user && typeof pia_user == 'string' ? pia_user : await ask({
-        type: 'input',
+    pia_user = pia_user && typeof pia_user == 'string' ? pia_user : await input({
         message: 'PIA username (p#######)',
     });
-    pia_pass = pia_pass && typeof pia_pass == 'string' ? pia_pass : await ask({
-        type: 'password',
+    pia_pass = pia_pass && typeof pia_pass == 'string' ? pia_pass : await password({
         message: 'PIA password',
     });
     const authData = await req(api, {

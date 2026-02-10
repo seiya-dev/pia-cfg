@@ -1,5 +1,5 @@
 import * as ed from '@noble/ed25519';
-import { x25519 } from '@noble/curves/ed25519';
+import { x25519 } from '@noble/curves/ed25519.js';
 
 const genwgkeys = (privKey = '', pubKey = '') => {
     if(typeof privKey == 'string'){

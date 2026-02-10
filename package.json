@@ -11,12 +11,12 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "@noble/curves": "^1.1.0",
-        "@noble/ed25519": "^2.0.0",
-        "got": "^13.0.0",
+        "@inquirer/prompts": "^8.2.0",
+        "@noble/curves": "^2.0.1",
+        "@noble/ed25519": "^3.0.0",
+        "got": "^14.6.6",
         "https-proxy-agent": "^7.0.1",
-        "ini": "^4.1.1",
-        "inquirer": "^9.1.4",
+        "ini": "^6.0.0",
         "yaml": "^2.2.0"
     }
 }

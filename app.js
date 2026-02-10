@@ -3,11 +3,13 @@ import fs from 'fs';
 import path from 'path';
 
 // custom
-import hlp from './modules/helper.js';
-import ask from './modules/ask.js';
-import genwgkeys from './modules/genkeys.js';
 import req from './modules/req.js';
+import hlp from './modules/helper.js';
+import genwgkeys from './modules/genkeys.js';
 import { ufiles, data } from './modules/ufiles.js';
+
+// npm modules
+import { select } from '@inquirer/prompts';
 
 // help function
 import { getToken, updToken } from './modules/token.js';
@@ -142,8 +144,7 @@ async function wgApiSelReg(selReg = ''){
     regListArr.unshift({ value: exitId, name: '----- Close app', ping: -5 });
     
     // select region
-    let curRegion = await ask({
-        type: 'list',
+    let curRegion = await select({
         message: 'Select PIA region',
         choices: regListArr,
         default: selReg,
@@ -251,8 +252,7 @@ async function wgFileList(selServ = ''){
     }
     
     wgSrv.sort(hlp.sortByName);
-    const curServer = await ask({
-        type: 'list',
+    const curServer = await select({
         message: 'Select PIA server',
         choices: wgSrv,
         default: selServ,
@@ -318,8 +318,7 @@ async function wgApiSelServ(selReg = '', selServ = ''){
     }
     
     serverListArr.sort(hlp.sortByName);
-    const curServer = await ask({
-        type: 'list',
+    const curServer = await select({
         message: 'Select PIA server',
         choices: serverListArr,
         default: selServ,
@@ -352,7 +351,7 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         const ipList = hlp.makeIpArrSel(s.ip_wg);
         const wgiDefault = isNaN(data.wgi[s.id]) ? 1 : data.wgi[s.id] + 1;
         
-        curData.wgi = await ask({
+        curData.wgi = await select({
             type: 'list',
             message: 'Select IP address',
             choices: ipList,
@@ -474,6 +473,16 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         wgconf.push(`PrivateKey = ${wgkeys.privateKey}`);
         wgconf.push(`Address = ${wgdata.address}`);
         wgconf.push(`DNS = ${wgdata.dns_servers.join(', ')}`);
+        
+        // amnezia parameters
+        // wgconf.push('Jc = ...');
+        // wgconf.push('Jmin = ...');
+        // wgconf.push('Jmax = ...');
+        wgconf.push('H1 = 1');
+        wgconf.push('H2 = 2');
+        wgconf.push('H3 = 3');
+        wgconf.push('H4 = 4');
+        //wgconf.push('I1 = <b 0x...>');
         wgconf.push('');
 
         wgconf.push('[Peer]');

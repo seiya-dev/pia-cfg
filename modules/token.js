@@ -15,7 +15,7 @@ async function getToken (api, pia_user, pia_pass) {
     });
     if(authData.ok){
         const token = {
-            data: JSON.parse(authData.res.body),
+            data: JSON.parse(authData.res.body_txt),
             ttl: Math.floor(Date.now()/1000) + 60*60*24,
         };
         return { ok: true, res: token };
@@ -28,7 +28,7 @@ async function updToken (api, ptoken) {
         const query = '?' + new URLSearchParams({ oldToken: ptoken }).toString();
         const reqUpdToken = await req(api + query);
         const token = {
-            data: JSON.parse(reqUpdToken.res.body),
+            data: JSON.parse(reqUpdToken.res.body_txt),
             ttl: Math.floor(Date.now()/1000) + 60*60*24,
         };
         return { ok: true, res: token };

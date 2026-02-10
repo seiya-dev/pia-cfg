@@ -9,7 +9,7 @@ async function getServerList(api, skipPing, _reg, _srv, _wgi, _wgp){
     }
     
     // data
-    const dsrv = serverList.res.body.replace(/\r/g, '').split('\n');
+    const dsrv = serverList.res.body_txt.replace(/\r/g, '').split('\n');
     const jgrp = JSON.parse(dsrv[0]).groups;
     const jreg = JSON.parse(dsrv[0]).regions;
     
@@ -112,6 +112,11 @@ async function getServerList(api, skipPing, _reg, _srv, _wgi, _wgp){
             const wgIpId = hlp.getWgIpId(ip_wg.ip);
             srv.id = hlp.convertCnId(r.c_id, wgSrv.cn);
             srv.id += '-' + wgIpId.join('-');
+            
+            if (!ip_meta || !ip_wg) {
+                console.log(` - Can't find IP for server: ${srv.id}`);
+                continue;
+            }
             
             srv.cn = wgSrv.cn;
             srv.ip_meta = [ ip_meta.ip ];

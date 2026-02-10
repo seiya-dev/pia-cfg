@@ -1,6 +1,7 @@
 // modules
 import fs from 'fs';
 import path from 'path';
+import { Agent } from 'undici';
 
 // custom
 import req from './modules/req.js';
@@ -380,19 +381,24 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
     const wgConfFn = curData.file;
     
     // req url
-    const reqUrl = `https://${serverIp}:1337/addKey`;
+    const reqUrl = new URL(`https://${serverIp}:1337/addKey`);
+    // req qs
+    reqUrl.search = new URLSearchParams({
+        pt: data.usr.token,
+        pubkey: wgkeys.publicKey,
+    }).toString();
     // req options
     const reqOpts = {
-        searchParams: {
-            pt: data.usr.token,
-            pubkey: wgkeys.publicKey,
-        },
-        https: {
-            certificateAuthority: fs.readFileSync(ufiles.crt),
-        },
+        method: "GET",
         headers: {
             Host: serverCn,
         },
+        dispatcher: new Agent({
+            connect: {
+                ca: fs.readFileSync(ufiles.crt),
+                servername: serverCn,
+            },
+        }),
     };
     
     // console.log(reqUrl);
@@ -400,7 +406,8 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
     
     // do request
     console.log('[INFO] Publishing key...');
-    const reqKey = await req(reqUrl, reqOpts);
+    const reqKey = await fetch(reqUrl, reqOpts);
+    
     // reqOpts.url = reqUrl;
     
     // {
@@ -418,6 +425,8 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
     // }
     
     if(reqKey.error){
+        console.log('TODO: Rework reqKey.error');
+        /*
         if(reqKey.error.name == 'RequestError' && reqKey.error.code == 'ETIMEDOUT'){
             console.log('[ERROR] Server is offline... Try another server.');
             
@@ -461,9 +470,11 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         //     `--data-urlencode "pubkey=${wgkeys.publicKey}" "https://${serverCn}:1337/addKey"`,
         // ].join(' '));
         // wmic path win32_networkadapter where description="WindscribeWireguard" get ConfigManagerErrorCode
+        */
     }
     else{
-        const wgdata = JSON.parse(reqKey.res.body);
+        const reqKeyBody = await reqKey.clone().text();
+        const wgdata = JSON.parse(reqKeyBody);
         wgdata.address = `${wgdata.peer_ip}/32`;
         wgdata.endpoint = `${wgdata.server_ip}:${wgdata.server_port}`;
         console.log('[INFO] Generating configuration...');

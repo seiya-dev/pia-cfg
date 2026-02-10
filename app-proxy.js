@@ -48,7 +48,7 @@ async function getStatus(){
     const url = data.api.prxStat + '?' + date;
     const rdata = await req(url);
     if(rdata.ok){
-        const jdata = JSON.parse(rdata.res.body);
+        const jdata = JSON.parse(rdata.res.body_txt);
         // console.log(jdata);
     }
     else{
@@ -72,7 +72,7 @@ async function getToken(){
         timeout: { request: 5000 },
     });
     if(rdata.ok){
-        const jdata = JSON.parse(rdata.res.body);
+        const jdata = JSON.parse(rdata.res.body_txt);
         fs.writeFileSync(ufiles.usr, YAML.stringify(jdata));
     }
 }
@@ -82,7 +82,7 @@ async function getUser(){
         headers: { 'Authorization': 'Token ' + data.usr.token, },
     });
     if(rdata.ok){
-        const jdata = JSON.parse(rdata.res.body);
+        const jdata = JSON.parse(rdata.res.body_txt);
         console.log('Username     ', jdata.username);
         console.log('Days remained', jdata.days_remaining);
     }
@@ -91,7 +91,7 @@ async function getUser(){
 async function testProxy(){
     const rdata = await req(data.api.prxList);
     if(rdata.ok){
-        const jdata = JSON.parse(rdata.res.body);
+        const jdata = JSON.parse(rdata.res.body_txt);
         const pdata = [];
         for(const p of jdata){
             const d = { cc: p.iso, dns: p.dns, ip: p.ping, };
@@ -119,7 +119,7 @@ async function testProxy(){
         });
         
         if(testReq.ok){
-            // console.log(JSON.parse(testReq.res.body));
+            // console.log(JSON.parse(testReq.res.body_txt));
             console.log('Proxy Login:', tokenUser);
             console.log('Proxy Pass:', tokenPass);
             

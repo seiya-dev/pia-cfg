@@ -62,7 +62,9 @@ data:
     ip_meta:
       - 173.239.217.128
     ip_wg:
+      - 173.239.217.129
       - 173.239.217.167
+      - 173.239.217.172
     is_offline: false
   - rid: ad
     id: ad-andorra-07-173-239-217
@@ -70,7 +72,10 @@ data:
     ip_meta:
       - 173.239.217.142
     ip_wg:
+      - 173.239.217.151
+      - 173.239.217.154
       - 173.239.217.155
+      - 173.239.217.162
     is_offline: false
   - rid: ae
     id: ae-unitedarabemirates-dubai-02-146-070-102
@@ -130,6 +135,26 @@ data:
       - 217.138.193.172
       - 217.138.193.173
       - 217.138.193.174
+    is_offline: false
+  - rid: ae
+    id: ae-unitedarabemirates-dubai-06-217-138-162
+    cn: dubai406
+    ip_meta:
+      - 217.138.162.3
+    ip_wg:
+      - 217.138.162.8
+      - 217.138.162.10
+      - 217.138.162.12
+    is_offline: false
+  - rid: al
+    id: al-albania-tirana-01-031-171-153
+    cn: tirana401
+    ip_meta:
+      - 31.171.153.18
+    ip_wg:
+      - 31.171.153.21
+      - 31.171.153.22
+      - 31.171.153.23
     is_offline: false
   - rid: al
     id: al-albania-tirana-01-031-171-154
@@ -207,6 +232,16 @@ data:
       - 185.253.160.13
       - 185.253.160.14
     is_offline: false
+  - rid: yerevan
+    id: am-armenia-04-185-253-160
+    cn: armenia404
+    ip_meta:
+      - 185.253.160.15
+    ip_wg:
+      - 185.253.160.17
+      - 185.253.160.20
+      - 185.253.160.22
+    is_offline: false
   - rid: ar
     id: ar-argentina-buenosaires-07-146-070-038
     cn: buenosaires407
@@ -257,6 +292,7 @@ data:
       - 146.70.38.58
       - 146.70.38.59
       - 146.70.38.60
+      - 146.70.38.61
     is_offline: false
   - rid: ar
     id: ar-argentina-buenosaires-09-146-070-038
@@ -328,6 +364,8 @@ data:
       - 156.146.60.138
       - 156.146.60.139
       - 156.146.60.140
+      - 156.146.60.142
+      - 156.146.60.144
     is_offline: false
   - rid: austria
     id: at-austria-vienna-02-156-146-060
@@ -381,6 +419,7 @@ data:
     cn: vienna403
     ip_meta:
       - 89.187.168.1
+      - 156.146.60.32
     ip_wg:
       - 156.146.60.65
       - 156.146.60.66
@@ -408,6 +447,126 @@ data:
       - 156.146.60.88
       - 156.146.60.89
       - 156.146.60.90
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12434-0a-220-158-199
+    cn: Server-12434-0a
+    ip_meta:
+      - 220.158.199.179
+    ip_wg:
+      - 220.158.199.137
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12435-0a-220-158-199
+    cn: Server-12435-0a
+    ip_meta:
+      - 220.158.199.176
+    ip_wg:
+      - 220.158.199.253
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12436-0a-220-158-199
+    cn: Server-12436-0a
+    ip_meta:
+      - 220.158.199.243
+    ip_wg:
+      - 220.158.199.175
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12437-0a-220-158-199
+    cn: Server-12437-0a
+    ip_meta:
+      - 220.158.199.198
+    ip_wg:
+      - 220.158.199.147
+    is_offline: false
+  - rid: aus_melbourne
+    id: au-australia-Server-12438-0a-045-130-141
+    cn: Server-12438-0a
+    ip_meta:
+      - 45.130.141.227
+    ip_wg:
+      - 45.130.141.215
+    is_offline: false
+  - rid: aus_melbourne
+    id: au-australia-Server-12439-0a-045-130-141
+    cn: Server-12439-0a
+    ip_meta:
+      - 45.130.141.205
+    ip_wg:
+      - 45.130.141.198
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12441-0a-220-158-199
+    cn: Server-12441-0a
+    ip_meta:
+      - 220.158.199.161
+    ip_wg:
+      - 220.158.199.145
+    is_offline: false
+  - rid: aus_melbourne
+    id: au-australia-Server-12442-0a-045-130-141
+    cn: Server-12442-0a
+    ip_meta:
+      - 45.130.141.166
+    ip_wg:
+      - 45.130.141.134
+    is_offline: false
+  - rid: aus_melbourne
+    id: au-australia-Server-12444-0a-045-130-141
+    cn: Server-12444-0a
+    ip_meta:
+      - 45.130.141.219
+    ip_wg:
+      - 45.130.141.159
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12453-0a-117-120-009
+    cn: Server-12453-0a
+    ip_meta:
+      - 117.120.9.30
+    ip_wg:
+      - 117.120.9.19
+    is_offline: false
+  - rid: aus
+    id: au-australia-Server-12459-0a-117-120-009
+    cn: Server-12459-0a
+    ip_meta:
+      - 117.120.9.35
+    ip_wg:
+      - 117.120.9.43
+    is_offline: false
+  - rid: aus_melbourne
+    id: au-australia-Server-12461-0a-181-214-199
+    cn: Server-12461-0a
+    ip_meta:
+      - 181.214.199.132
+    ip_wg:
+      - 181.214.199.131
+    is_offline: false
+  - rid: aus_melbourne
+    id: au-australia-Server-12462-0a-181-214-199
+    cn: Server-12462-0a
+    ip_meta:
+      - 181.214.199.68
+    ip_wg:
+      - 181.214.199.67
+    is_offline: false
+  - rid: au_adelaide-pf
+    id: au-australia-Server-12469-0a-173-244-062
+    cn: Server-12469-0a
+    ip_meta:
+      - 173.244.62.68
+    ip_wg:
+      - 173.244.62.122
+    is_offline: false
+  - rid: au_adelaide-pf
+    id: au-australia-Server-12472-0a-173-244-062
+    cn: Server-12472-0a
+    ip_meta:
+      - 173.244.62.73
+    ip_wg:
+      - 173.244.62.101
     is_offline: false
   - rid: au_adelaide-pf
     id: au-australia-adelaide-01-173-244-062
@@ -485,11 +644,13 @@ data:
       - 202.125.43.76
       - 202.125.43.77
       - 202.125.43.78
+      - 202.125.43.80
       - 202.125.43.83
       - 202.125.43.88
       - 202.125.43.89
       - 202.125.43.90
       - 202.125.43.92
+      - 202.125.43.93
     is_offline: false
   - rid: au_brisbane-pf
     id: au-australia-brisbane-03-202-125-043
@@ -504,10 +665,13 @@ data:
       - 202.125.43.12
       - 202.125.43.13
       - 202.125.43.14
+      - 202.125.43.17
       - 202.125.43.18
       - 202.125.43.19
       - 202.125.43.20
+      - 202.125.43.21
       - 202.125.43.22
+      - 202.125.43.26
       - 202.125.43.27
       - 202.125.43.29
     is_offline: false
@@ -555,7 +719,7 @@ data:
       - 181.214.199.92
       - 181.214.199.93
     is_offline: false
-  - rid: aus_melbourne
+  - rid: au_australia-so
     id: au-australia-melbourne-14-181-214-199
     cn: melbourne414
     ip_meta:
@@ -579,6 +743,7 @@ data:
       - 181.214.199.121
       - 181.214.199.123
       - 181.214.199.124
+      - 181.214.199.125
       - 181.214.199.126
     is_offline: false
   - rid: aus_melbourne
@@ -868,6 +1033,16 @@ data:
       - 154.6.151.218
       - 154.6.151.219
     is_offline: false
+  - rid: au_australia-so
+    id: au-australia-melbourne-34-173-239-203
+    cn: melbourne434
+    ip_meta:
+      - 173.239.203.8
+    ip_wg:
+      - 173.239.203.195
+      - 173.239.203.215
+      - 173.239.203.216
+    is_offline: false
   - rid: aus_perth
     id: au-australia-perth-03-179-061-228
     cn: perth403
@@ -913,6 +1088,7 @@ data:
       - 179.61.228.48
       - 179.61.228.49
       - 179.61.228.50
+      - 179.61.228.51
       - 179.61.228.52
       - 179.61.228.53
       - 179.61.228.54
@@ -920,6 +1096,7 @@ data:
       - 179.61.228.56
       - 179.61.228.57
       - 179.61.228.58
+      - 179.61.228.61
       - 179.61.228.62
     is_offline: false
   - rid: aus_perth
@@ -948,6 +1125,7 @@ data:
       - 179.61.228.87
       - 179.61.228.88
       - 179.61.228.89
+      - 179.61.228.90
       - 179.61.228.91
       - 179.61.228.92
       - 179.61.228.94
@@ -966,6 +1144,7 @@ data:
       - 179.61.228.108
       - 179.61.228.109
       - 179.61.228.110
+      - 179.61.228.111
       - 179.61.228.113
       - 179.61.228.114
       - 179.61.228.115
@@ -1295,7 +1474,7 @@ data:
       - 154.16.81.186
       - 154.16.81.188
     is_offline: false
-  - rid: aus
+  - rid: au_australia-so
     id: au-australia-sydney-35-154-016-081
     cn: sydney435
     ip_meta:
@@ -1304,7 +1483,9 @@ data:
       - 154.16.81.190
       - 154.16.81.191
       - 154.16.81.192
+      - 154.16.81.193
       - 154.16.81.196
+      - 154.16.81.197
       - 154.16.81.198
       - 154.16.81.200
       - 154.16.81.201
@@ -1385,7 +1566,9 @@ data:
     ip_meta:
       - 98.159.36.128
     ip_wg:
+      - 98.159.36.130
       - 98.159.36.134
+      - 98.159.36.135
       - 98.159.36.138
       - 98.159.36.140
     is_offline: false
@@ -1397,6 +1580,9 @@ data:
     ip_wg:
       - 98.159.36.143
       - 98.159.36.145
+      - 98.159.36.148
+      - 98.159.36.149
+      - 98.159.36.151
       - 98.159.36.152
     is_offline: false
   - rid: bangladesh
@@ -1425,7 +1611,9 @@ data:
     ip_meta:
       - 64.64.112.128
     ip_wg:
+      - 64.64.112.142
       - 64.64.112.149
+      - 64.64.112.158
     is_offline: false
   - rid: belgium
     id: be-belgium-brussels-18-181-214-218
@@ -1493,6 +1681,33 @@ data:
       - 181.214.218.75
       - 181.214.218.76
     is_offline: false
+  - rid: belgium
+    id: be-belgium-brussels-23-149-022-090
+    cn: brussels423
+    ip_meta:
+      - 149.22.90.223
+    ip_wg:
+      - 149.22.90.231
+      - 149.22.90.239
+    is_offline: false
+  - rid: belgium
+    id: be-belgium-brussels-23-154-047-027
+    cn: brussels423
+    ip_meta:
+      - 149.22.90.223
+    ip_wg:
+      - 154.47.27.37
+    is_offline: false
+  - rid: belgium
+    id: be-belgium-brussels-24-149-022-090
+    cn: brussels424
+    ip_meta:
+      - 149.22.90.193
+    ip_wg:
+      - 149.22.90.214
+      - 149.22.90.215
+      - 149.22.90.221
+    is_offline: false
   - rid: sofia
     id: bg-bulgaria-sofia-05-094-156-014
     cn: sofia405
@@ -1526,6 +1741,26 @@ data:
       - 94.156.14.27
       - 94.156.14.28
       - 94.156.14.29
+    is_offline: false
+  - rid: sofia
+    id: bg-bulgaria-sofia-06-094-156-014
+    cn: sofia406
+    ip_meta:
+      - 94.156.14.30
+    ip_wg:
+      - 94.156.14.36
+      - 94.156.14.39
+      - 94.156.14.53
+    is_offline: false
+  - rid: bo_bolivia-pf
+    id: bo-bolivia-01-064-064-099
+    cn: bolivia401
+    ip_meta:
+      - 64.64.99.2
+    ip_wg:
+      - 64.64.99.8
+      - 64.64.99.9
+      - 64.64.99.21
     is_offline: false
   - rid: bo_bolivia-pf
     id: bo-bolivia-01-084-247-091
@@ -1630,6 +1865,7 @@ data:
     ip_wg:
       - 146.70.98.36
       - 146.70.98.37
+      - 146.70.98.39
       - 146.70.98.41
       - 146.70.98.44
       - 146.70.98.45
@@ -1777,6 +2013,36 @@ data:
       - 95.181.238.72
       - 95.181.238.73
       - 95.181.238.74
+    is_offline: false
+  - rid: bahamas
+    id: bs-bahamas-11-095-181-238
+    cn: bahamas411
+    ip_meta:
+      - 95.181.238.123
+    ip_wg:
+      - 95.181.238.9
+      - 95.181.238.15
+      - 95.181.238.121
+    is_offline: false
+  - rid: bahamas
+    id: bs-bahamas-12-095-181-238
+    cn: bahamas412
+    ip_meta:
+      - 95.181.238.111
+    ip_wg:
+      - 95.181.238.30
+      - 95.181.238.31
+      - 95.181.238.59
+    is_offline: false
+  - rid: bahamas
+    id: bs-bahamas-13-095-181-238
+    cn: bahamas413
+    ip_meta:
+      - 95.181.238.99
+    ip_wg:
+      - 95.181.238.71
+      - 95.181.238.92
+      - 95.181.238.100
     is_offline: false
   - rid: ca
     id: ca-canada-montreal-02-172-098-071
@@ -1993,6 +2259,14 @@ data:
       - 140.228.21.158
     is_offline: false
   - rid: ca
+    id: ca-canada-montreal-22-212-056-049
+    cn: montreal422
+    ip_meta:
+      - 212.56.49.2
+    ip_wg:
+      - 212.56.49.15
+    is_offline: false
+  - rid: ca
     id: ca-canada-montreal-23-140-228-021
     cn: montreal423
     ip_meta:
@@ -2013,6 +2287,16 @@ data:
       - 140.228.21.182
       - 140.228.21.184
       - 140.228.21.187
+    is_offline: false
+  - rid: ca
+    id: ca-canada-montreal-23-212-056-049
+    cn: montreal423
+    ip_meta:
+      - 212.56.49.3
+    ip_wg:
+      - 212.56.49.49
+      - 212.56.49.64
+      - 212.56.49.67
     is_offline: false
   - rid: ca
     id: ca-canada-montreal-24-140-228-021
@@ -2037,6 +2321,14 @@ data:
       - 140.228.21.219
     is_offline: false
   - rid: ca
+    id: ca-canada-montreal-24-212-056-049
+    cn: montreal424
+    ip_meta:
+      - 212.56.49.4
+    ip_wg:
+      - 212.56.49.78
+    is_offline: false
+  - rid: ca
     id: ca-canada-montreal-25-140-228-021
     cn: montreal425
     ip_meta:
@@ -2049,6 +2341,15 @@ data:
       - 140.228.21.231
       - 140.228.21.241
       - 140.228.21.249
+    is_offline: false
+  - rid: ca
+    id: ca-canada-montreal-25-212-056-049
+    cn: montreal425
+    ip_meta:
+      - 212.56.49.5
+    ip_wg:
+      - 212.56.49.118
+      - 212.56.49.119
     is_offline: false
   - rid: ca
     id: ca-canada-montreal-26-140-228-024
@@ -2120,6 +2421,7 @@ data:
     ip_wg:
       - 140.228.24.162
       - 140.228.24.168
+      - 140.228.24.170
       - 140.228.24.171
       - 140.228.24.172
       - 140.228.24.173
@@ -2161,6 +2463,16 @@ data:
       - 140.228.24.236
       - 140.228.24.240
     is_offline: false
+  - rid: ca_ontario-so
+    id: ca-canada-ontario-01-066-056-080
+    cn: ontario401
+    ip_meta:
+      - 66.56.80.1
+    ip_wg:
+      - 66.56.80.3
+      - 66.56.80.21
+      - 66.56.80.27
+    is_offline: false
   - rid: ca_ontario
     id: ca-canada-ontario-01-172-083-047
     cn: ontario401
@@ -2181,6 +2493,16 @@ data:
       - 172.83.47.96
       - 172.83.47.101
       - 172.83.47.104
+    is_offline: false
+  - rid: ca_ontario-so
+    id: ca-canada-ontario-02-066-056-081
+    cn: ontario402
+    ip_meta:
+      - 66.56.81.191
+    ip_wg:
+      - 66.56.81.194
+      - 66.56.81.207
+      - 66.56.81.215
     is_offline: false
   - rid: ca_ontario
     id: ca-canada-ontario-02-172-083-047
@@ -2313,6 +2635,16 @@ data:
       - 172.98.80.192
     is_offline: false
   - rid: ca_ontario
+    id: ca-canada-ontario-07-066-056-081
+    cn: ontario407
+    ip_meta:
+      - 66.56.81.1
+    ip_wg:
+      - 66.56.81.8
+      - 66.56.81.10
+      - 66.56.81.25
+    is_offline: false
+  - rid: ca_ontario
     id: ca-canada-ontario-07-172-098-080
     cn: ontario407
     ip_meta:
@@ -2335,6 +2667,14 @@ data:
       - 172.98.80.62
       - 172.98.80.63
       - 172.98.80.64
+    is_offline: false
+  - rid: ca_ontario
+    id: ca-canada-ontario-08-066-056-081
+    cn: ontario408
+    ip_meta:
+      - 66.56.81.94
+    ip_wg:
+      - 66.56.81.98
     is_offline: false
   - rid: ca_ontario
     id: ca-canada-ontario-08-172-098-092
@@ -2478,6 +2818,33 @@ data:
       - 198.8.95.245
       - 198.8.95.252
     is_offline: false
+  - rid: ca_ontario
+    id: ca-canada-ontario-16-178-249-214
+    cn: ontario416
+    ip_meta:
+      - 178.249.214.97
+    ip_wg:
+      - 178.249.214.117
+      - 178.249.214.118
+    is_offline: false
+  - rid: ca_ontario
+    id: ca-canada-ontario-37-066-056-080
+    cn: ontario437
+    ip_meta:
+      - 66.56.80.63
+    ip_wg:
+      - 66.56.80.66
+      - 66.56.80.73
+    is_offline: false
+  - rid: ca_toronto
+    id: ca-canada-toronto-01-066-056-080
+    cn: toronto401
+    ip_meta:
+      - 66.56.80.129
+    ip_wg:
+      - 66.56.80.162
+      - 66.56.80.166
+    is_offline: false
   - rid: ca_toronto
     id: ca-canada-toronto-01-149-036-049
     cn: toronto401
@@ -2539,6 +2906,14 @@ data:
       - 66.115.142.121
     is_offline: false
   - rid: ca_toronto
+    id: ca-canada-toronto-06-066-056-081
+    cn: toronto406
+    ip_meta:
+      - 66.56.81.63
+    ip_wg:
+      - 66.56.81.86
+    is_offline: false
+  - rid: ca_toronto
     id: ca-canada-toronto-14-154-003-040
     cn: toronto414
     ip_meta:
@@ -2582,6 +2957,7 @@ data:
     ip_meta:
       - 191.96.36.33
     ip_wg:
+      - 191.96.36.45
       - 191.96.36.49
       - 191.96.36.63
     is_offline: false
@@ -2651,6 +3027,7 @@ data:
       - 191.96.36.141
       - 191.96.36.145
       - 191.96.36.152
+      - 191.96.36.153
     is_offline: false
   - rid: ca_toronto
     id: ca-canada-toronto-19-154-003-040
@@ -2672,10 +3049,12 @@ data:
     ip_meta:
       - 191.96.36.154
     ip_wg:
+      - 191.96.36.158
       - 191.96.36.160
       - 191.96.36.161
       - 191.96.36.169
       - 191.96.36.170
+      - 191.96.36.171
       - 191.96.36.179
     is_offline: false
   - rid: ca_toronto
@@ -2739,6 +3118,14 @@ data:
       - 191.96.36.252
       - 191.96.36.253
       - 191.96.36.254
+    is_offline: false
+  - rid: ca_toronto
+    id: ca-canada-toronto-21-212-032-048
+    cn: toronto421
+    ip_meta:
+      - 212.32.48.33
+    ip_wg:
+      - 212.32.48.39
     is_offline: false
   - rid: ca_toronto
     id: ca-canada-toronto-22-154-003-042
@@ -2914,6 +3301,14 @@ data:
       - 179.61.197.218
     ip_wg:
       - 179.61.197.249
+    is_offline: false
+  - rid: ca_toronto
+    id: ca-canada-toronto-34-212-032-048
+    cn: toronto434
+    ip_meta:
+      - 212.32.48.95
+    ip_wg:
+      - 212.32.48.119
     is_offline: false
   - rid: ca_toronto
     id: ca-canada-toronto-37-089-149-017
@@ -3216,6 +3611,14 @@ data:
       - 181.214.153.189
     is_offline: false
   - rid: ca_vancouver
+    id: ca-canada-vancouver-26-089-149-052
+    cn: vancouver426
+    ip_meta:
+      - 89.149.52.2
+    ip_wg:
+      - 89.149.52.17
+    is_offline: false
+  - rid: ca_vancouver
     id: ca-canada-vancouver-26-181-214-153
     cn: vancouver426
     ip_meta:
@@ -3231,6 +3634,16 @@ data:
       - 181.214.153.211
       - 181.214.153.213
       - 181.214.153.219
+    is_offline: false
+  - rid: ca_vancouver
+    id: ca-canada-vancouver-27-089-149-052
+    cn: vancouver427
+    ip_meta:
+      - 89.149.52.3
+    ip_wg:
+      - 89.149.52.40
+      - 89.149.52.48
+      - 89.149.52.49
     is_offline: false
   - rid: ca_vancouver
     id: ca-canada-vancouver-27-181-214-153
@@ -3253,6 +3666,14 @@ data:
       - 181.214.153.239
       - 181.214.153.242
       - 181.214.153.246
+    is_offline: false
+  - rid: ca_vancouver
+    id: ca-canada-vancouver-28-089-149-052
+    cn: vancouver428
+    ip_meta:
+      - 89.149.52.4
+    ip_wg:
+      - 89.149.52.84
     is_offline: false
   - rid: ca_vancouver
     id: ca-canada-vancouver-28-181-041-202
@@ -3389,6 +3810,51 @@ data:
       - 181.41.202.247
       - 181.41.202.248
     is_offline: false
+  - rid: ca_vancouver
+    id: ca-canada-vancouver-37-149-022-095
+    cn: vancouver437
+    ip_meta:
+      - 149.22.95.129
+    ip_wg:
+      - 149.22.95.134
+    is_offline: false
+  - rid: ca_vancouver
+    id: ca-canada-vancouver-38-149-022-095
+    cn: vancouver438
+    ip_meta:
+      - 149.22.95.156
+    ip_wg:
+      - 149.22.95.180
+    is_offline: false
+  - rid: ca_vancouver
+    id: ca-canada-vancouver-39-149-022-095
+    cn: vancouver439
+    ip_meta:
+      - 149.22.95.55
+    ip_wg:
+      - 149.22.95.75
+      - 149.22.95.78
+    is_offline: false
+  - rid: swiss
+    id: ch-switzerland-zurich-03-158-173-152
+    cn: zurich403
+    ip_meta:
+      - 156.146.62.134
+    ip_wg:
+      - 158.173.152.185
+      - 158.173.152.197
+      - 158.173.152.204
+    is_offline: false
+  - rid: swiss
+    id: ch-switzerland-zurich-05-158-173-152
+    cn: zurich405
+    ip_meta:
+      - 156.146.62.130
+    ip_wg:
+      - 158.173.152.48
+      - 158.173.152.68
+      - 158.173.152.71
+    is_offline: false
   - rid: swiss
     id: ch-switzerland-zurich-05-212-102-036
     cn: zurich405
@@ -3494,6 +3960,16 @@ data:
       - 156.146.62.221
       - 156.146.62.222
       - 156.146.62.223
+    is_offline: false
+  - rid: swiss
+    id: ch-switzerland-zurich-07-158-173-152
+    cn: zurich407
+    ip_meta:
+      - 156.146.62.131
+    ip_wg:
+      - 158.173.152.92
+      - 158.173.152.116
+      - 158.173.152.122
     is_offline: false
   - rid: swiss
     id: ch-switzerland-zurich-07-212-102-037
@@ -3640,6 +4116,16 @@ data:
       - 146.70.11.39
       - 146.70.11.40
     is_offline: false
+  - rid: santiago
+    id: cl-chile-03-146-070-011
+    cn: chile403
+    ip_meta:
+      - 146.70.11.41
+    ip_wg:
+      - 146.70.11.43
+      - 146.70.11.44
+      - 146.70.11.51
+    is_offline: false
   - rid: china
     id: cn-china-03-188-241-080
     cn: china403
@@ -3699,6 +4185,22 @@ data:
       - 188.241.80.54
       - 188.241.80.55
     is_offline: false
+  - rid: china
+    id: cn-china-Server-12470-0a-188-241-080
+    cn: Server-12470-0a
+    ip_meta:
+      - 188.241.80.102
+    ip_wg:
+      - 188.241.80.73
+    is_offline: false
+  - rid: china
+    id: cn-china-Server-12474-0a-188-241-080
+    cn: Server-12474-0a
+    ip_meta:
+      - 188.241.80.86
+    ip_wg:
+      - 188.241.80.105
+    is_offline: false
   - rid: bogota
     id: co-colombia-01-146-070-009
     cn: colombia401
@@ -3740,9 +4242,11 @@ data:
       - 154.47.16.104
       - 154.47.16.105
       - 154.47.16.106
+      - 154.47.16.108
       - 154.47.16.112
       - 154.47.16.114
       - 154.47.16.116
+      - 154.47.16.117
       - 154.47.16.118
       - 154.47.16.120
       - 154.47.16.121
@@ -3766,7 +4270,9 @@ data:
       - 154.47.16.210
       - 154.47.16.212
       - 154.47.16.213
+      - 154.47.16.215
       - 154.47.16.216
+      - 154.47.16.219
     is_offline: false
   - rid: bogota
     id: co-colombia-columbia-01-146-070-009
@@ -3996,6 +4502,54 @@ data:
       - 212.102.39.218
       - 212.102.39.219
     is_offline: false
+  - rid: de-frankfurt
+    id: de-germany-Server-12398-1a-084-233-216
+    cn: Server-12398-1a
+    ip_meta:
+      - 84.233.216.166
+    ip_wg:
+      - 84.233.216.155
+    is_offline: false
+  - rid: de-frankfurt
+    id: de-germany-Server-12399-1a-084-233-216
+    cn: Server-12399-1a
+    ip_meta:
+      - 84.233.216.170
+    ip_wg:
+      - 84.233.216.134
+    is_offline: false
+  - rid: de_berlin
+    id: de-germany-Server-12417-0a-191-101-157
+    cn: Server-12417-0a
+    ip_meta:
+      - 191.101.157.81
+    ip_wg:
+      - 191.101.157.26
+    is_offline: false
+  - rid: de_berlin
+    id: de-germany-Server-12418-0a-191-101-157
+    cn: Server-12418-0a
+    ip_meta:
+      - 191.101.157.64
+    ip_wg:
+      - 191.101.157.70
+    is_offline: false
+  - rid: de_berlin
+    id: de-germany-Server-12447-0a-191-101-157
+    cn: Server-12447-0a
+    ip_meta:
+      - 191.101.157.96
+    ip_wg:
+      - 191.101.157.128
+    is_offline: false
+  - rid: de_berlin
+    id: de-germany-Server-12450-0a-191-101-157
+    cn: Server-12450-0a
+    ip_meta:
+      - 191.101.157.124
+    ip_wg:
+      - 191.101.157.108
+    is_offline: false
   - rid: de_berlin
     id: de-germany-berlin-16-154-013-001
     cn: berlin416
@@ -4219,7 +4773,7 @@ data:
       - 154.13.1.106
       - 154.13.1.107
     is_offline: false
-  - rid: de_berlin
+  - rid: de_germany-so
     id: de-germany-berlin-22-191-101-157
     cn: berlin422
     ip_meta:
@@ -4227,6 +4781,7 @@ data:
     ip_wg:
       - 191.101.157.181
       - 191.101.157.182
+      - 191.101.157.187
       - 191.101.157.188
       - 191.101.157.189
       - 191.101.157.191
@@ -4251,7 +4806,7 @@ data:
       - 154.13.1.120
       - 154.13.1.122
     is_offline: false
-  - rid: de_berlin
+  - rid: de_germany-so
     id: de-germany-berlin-23-191-101-157
     cn: berlin423
     ip_meta:
@@ -4263,6 +4818,7 @@ data:
       - 191.101.157.221
       - 191.101.157.224
       - 191.101.157.229
+      - 191.101.157.230
       - 191.101.157.232
       - 191.101.157.233
       - 191.101.157.235
@@ -4535,7 +5091,7 @@ data:
       - 45.88.97.50
       - 45.88.97.55
     is_offline: false
-  - rid: de-frankfurt
+  - rid: de_germany-so
     id: de-germany-frankfurt-15-045-088-097
     cn: frankfurt415
     ip_meta:
@@ -4547,6 +5103,7 @@ data:
       - 45.88.97.215
       - 45.88.97.216
       - 45.88.97.218
+      - 45.88.97.220
       - 45.88.97.224
       - 45.88.97.226
       - 45.88.97.230
@@ -4584,6 +5141,16 @@ data:
       - 216.24.216.251
       - 216.24.216.253
       - 216.24.216.254
+    is_offline: false
+  - rid: de_germany-so
+    id: de-germany-frankfurt-19-095-134-063
+    cn: frankfurt419
+    ip_meta:
+      - 95.134.63.6
+    ip_wg:
+      - 95.134.63.188
+      - 95.134.63.189
+      - 95.134.63.207
     is_offline: false
   - rid: denmark
     id: dk-denmark-copenhagen-02-188-126-094
@@ -4751,6 +5318,16 @@ data:
       - 149.50.217.47
       - 149.50.217.57
     is_offline: false
+  - rid: denmark_2
+    id: dk-denmark-copenhagen-10-149-088-109
+    cn: copenhagen410
+    ip_meta:
+      - 149.88.109.129
+    ip_wg:
+      - 149.88.109.143
+      - 149.88.109.148
+      - 149.88.109.149
+    is_offline: false
   - rid: dz
     id: dz-algeria-algiers-03-176-125-228
     cn: algiers403
@@ -4816,6 +5393,26 @@ data:
     ip_wg:
       - 84.247.93.14
       - 84.247.93.15
+    is_offline: false
+  - rid: ec_ecuador-pf
+    id: ec-ecuador-01-173-239-249
+    cn: ecuador401
+    ip_meta:
+      - 173.239.249.2
+    ip_wg:
+      - 173.239.249.10
+      - 173.239.249.13
+      - 173.239.249.22
+    is_offline: false
+  - rid: ec_ecuador-pf
+    id: ec-ecuador-02-173-239-249
+    cn: ecuador402
+    ip_meta:
+      - 173.239.249.31
+    ip_wg:
+      - 173.239.249.42
+      - 173.239.249.50
+      - 173.239.249.59
     is_offline: false
   - rid: ee
     id: ee-estonia-talinn-01-165-231-182
@@ -5006,6 +5603,7 @@ data:
     ip_meta:
       - 165.231.182.122
     ip_wg:
+      - 165.231.182.123
       - 165.231.182.124
       - 165.231.182.125
       - 165.231.182.126
@@ -5049,6 +5647,22 @@ data:
       - 188.214.122.124
       - 188.214.122.125
       - 188.214.122.126
+    is_offline: false
+  - rid: es-valencia
+    id: es-spain-Server-12460-0a-196-245-054
+    cn: Server-12460-0a
+    ip_meta:
+      - 196.245.54.130
+    ip_wg:
+      - 196.245.54.129
+    is_offline: false
+  - rid: es-valencia
+    id: es-spain-Server-12465-0a-196-245-054
+    cn: Server-12465-0a
+    ip_meta:
+      - 196.245.54.150
+    ip_wg:
+      - 196.245.54.145
     is_offline: false
   - rid: spain
     id: es-spain-madrid-01-195-181-167
@@ -5171,6 +5785,16 @@ data:
       - 212.102.49.217
       - 212.102.49.218
       - 212.102.49.219
+    is_offline: false
+  - rid: spain
+    id: es-spain-madrid-04-212-102-049
+    cn: madrid404
+    ip_meta:
+      - 212.102.49.129
+    ip_wg:
+      - 212.102.49.82
+      - 212.102.49.87
+      - 212.102.49.217
     is_offline: false
   - rid: es-valencia
     id: es-spain-valencia-01-196-245-054
@@ -5330,6 +5954,7 @@ data:
       - 188.126.89.150
       - 188.126.89.151
       - 188.126.89.154
+      - 188.126.89.155
       - 188.126.89.156
       - 188.126.89.157
       - 188.126.89.158
@@ -5428,6 +6053,16 @@ data:
       - 191.101.217.40
     is_offline: false
   - rid: france
+    id: fr-france-paris-10-203-188-183
+    cn: paris410
+    ip_meta:
+      - 203.188.183.4
+    ip_wg:
+      - 203.188.183.73
+      - 203.188.183.87
+      - 203.188.183.95
+    is_offline: false
+  - rid: france
     id: fr-france-paris-11-191-101-031
     cn: paris411
     ip_meta:
@@ -5492,6 +6127,26 @@ data:
       - 191.101.31.68
       - 191.101.31.69
     is_offline: false
+  - rid: france
+    id: fr-france-paris-14-156-146-063
+    cn: paris414
+    ip_meta:
+      - 156.146.63.129
+    ip_wg:
+      - 156.146.63.164
+      - 156.146.63.167
+      - 156.146.63.174
+    is_offline: false
+  - rid: france
+    id: fr-france-paris-15-156-146-063
+    cn: paris415
+    ip_meta:
+      - 156.146.63.184
+    ip_wg:
+      - 156.146.63.188
+      - 156.146.63.207
+      - 156.146.63.208
+    is_offline: false
   - rid: georgia
     id: ge-georgia-03-095-181-236
     cn: georgia403
@@ -5527,6 +6182,15 @@ data:
       - 95.181.236.23
       - 95.181.236.24
       - 95.181.236.25
+    is_offline: false
+  - rid: georgia
+    id: ge-georgia-05-095-181-236
+    cn: georgia405
+    ip_meta:
+      - 95.181.236.26
+    ip_wg:
+      - 95.181.236.30
+      - 95.181.236.36
     is_offline: false
   - rid: greenland
     id: gl-greenland-03-091-090-120
@@ -5610,6 +6274,22 @@ data:
       - 91.90.120.202
       - 91.90.120.203
       - 91.90.120.204
+    is_offline: false
+  - rid: gr
+    id: gr-greece-Server-12468-0a-079-127-181
+    cn: Server-12468-0a
+    ip_meta:
+      - 79.127.181.62
+    ip_wg:
+      - 79.127.181.61
+    is_offline: false
+  - rid: gr
+    id: gr-greece-Server-12471-0a-079-127-181
+    cn: Server-12471-0a
+    ip_meta:
+      - 79.127.181.3
+    ip_wg:
+      - 79.127.181.2
     is_offline: false
   - rid: gr
     id: gr-greece-athens-01-154-057-003
@@ -5720,6 +6400,16 @@ data:
       - 84.247.95.24
       - 84.247.95.28
     is_offline: false
+  - rid: gt_guatemala-pf
+    id: gt-guatemala-01-173-239-221
+    cn: guatemala401
+    ip_meta:
+      - 173.239.221.2
+    ip_wg:
+      - 173.239.221.5
+      - 173.239.221.12
+      - 173.239.221.20
+    is_offline: false
   - rid: hk
     id: hk-hongkongsarchina-hongkong-02-086-107-104
     cn: hongkong402
@@ -5736,6 +6426,15 @@ data:
       - 86.107.104.234
       - 86.107.104.235
       - 86.107.104.236
+    is_offline: false
+  - rid: hk
+    id: hk-hongkongsarchina-hongkong-03-089-045-006
+    cn: hongkong403
+    ip_meta:
+      - 89.45.6.194
+    ip_wg:
+      - 89.45.6.199
+      - 89.45.6.205
     is_offline: false
   - rid: hk
     id: hk-hongkongsarchina-hongkong-04-086-107-104
@@ -5786,6 +6485,8 @@ data:
       - 154.47.29.132
       - 154.47.29.137
       - 154.47.29.138
+      - 154.47.29.139
+      - 154.47.29.141
       - 154.47.29.142
       - 154.47.29.146
       - 154.47.29.147
@@ -5801,6 +6502,7 @@ data:
     ip_meta:
       - 149.102.247.225
     ip_wg:
+      - 149.102.247.227
       - 149.102.247.228
       - 149.102.247.231
       - 149.102.247.234
@@ -5850,6 +6552,15 @@ data:
       - 86.106.74.126
     is_offline: false
   - rid: hungary
+    id: hu-hungary-budapest-04-185-252-223
+    cn: budapest404
+    ip_meta:
+      - 185.128.26.26
+    ip_wg:
+      - 185.252.223.154
+      - 185.252.223.155
+    is_offline: false
+  - rid: hungary
     id: hu-hungary-budapest-05-185-094-190
     cn: budapest405
     ip_meta:
@@ -5867,6 +6578,25 @@ data:
       - 185.94.190.204
       - 185.94.190.205
       - 185.94.190.206
+    is_offline: false
+  - rid: hungary
+    id: hu-hungary-budapest-06-086-106-074
+    cn: budapest406
+    ip_meta:
+      - 185.128.26.138
+    ip_wg:
+      - 86.106.74.125
+      - 86.106.74.126
+    is_offline: false
+  - rid: jakarta
+    id: id-indonesia-03-173-239-201
+    cn: indonesia403
+    ip_meta:
+      - 173.239.201.192
+    ip_wg:
+      - 173.239.201.196
+      - 173.239.201.201
+      - 173.239.201.204
     is_offline: false
   - rid: jakarta
     id: id-indonesia-03-192-142-226
@@ -5886,6 +6616,14 @@ data:
       - 192.142.226.152
       - 192.142.226.153
       - 192.142.226.154
+    is_offline: false
+  - rid: ireland
+    id: ie-ireland-Server-12476-0a-155-002-194
+    cn: Server-12476-0a
+    ip_meta:
+      - 155.2.194.3
+    ip_wg:
+      - 155.2.194.2
     is_offline: false
   - rid: ireland
     id: ie-ireland-dublin-03-193-056-252
@@ -6133,6 +6871,9 @@ data:
       - 149.88.26.129
     ip_wg:
       - 149.88.26.132
+      - 149.88.26.137
+      - 149.88.26.153
+      - 149.88.26.163
     is_offline: false
   - rid: israel
     id: il-israel-jerusalem-14-169-150-227
@@ -6178,7 +6919,10 @@ data:
     ip_meta:
       - 149.88.26.180
     ip_wg:
+      - 149.88.26.185
       - 149.88.26.213
+      - 149.88.26.226
+      - 149.88.26.227
     is_offline: false
   - rid: israel
     id: il-israel-jerusalem-15-169-150-248
@@ -6252,6 +6996,26 @@ data:
       - 91.90.124.31
       - 91.90.124.32
     is_offline: false
+  - rid: man
+    id: im-isleofman-douglas-05-091-090-124
+    cn: douglas405
+    ip_meta:
+      - 91.90.124.33
+    ip_wg:
+      - 91.90.124.35
+      - 91.90.124.37
+      - 91.90.124.45
+    is_offline: false
+  - rid: in
+    id: in-india-mumbai-14-103-108-174
+    cn: mumbai414
+    ip_meta:
+      - 103.108.174.1
+    ip_wg:
+      - 103.108.174.9
+      - 103.108.174.14
+      - 103.108.174.28
+    is_offline: false
   - rid: in
     id: in-india-mumbai-14-166-000-218
     cn: mumbai414
@@ -6301,6 +7065,16 @@ data:
       - 166.0.218.216
       - 166.0.218.217
     is_offline: false
+  - rid: in
+    id: in-india-mumbai-17-103-108-174
+    cn: mumbai417
+    ip_meta:
+      - 103.108.174.38
+    ip_wg:
+      - 103.108.174.55
+      - 103.108.174.59
+      - 103.108.174.60
+    is_offline: false
   - rid: is
     id: is-iceland-reykjavik-01-045-133-193
     cn: reykjavik401
@@ -6338,6 +7112,15 @@ data:
       - 45.133.193.92
       - 45.133.193.93
       - 45.133.193.94
+    is_offline: false
+  - rid: is
+    id: is-iceland-reykjavik-03-045-133-193
+    cn: reykjavik403
+    ip_meta:
+      - 45.133.193.50
+    ip_wg:
+      - 45.133.193.52
+      - 45.133.193.53
     is_offline: false
   - rid: italy
     id: it-italy-milano-02-156-146-041
@@ -6487,6 +7270,16 @@ data:
       - 138.199.54.64
     is_offline: false
   - rid: japan_2
+    id: jp-japan-tokyo-01-149-022-087
+    cn: tokyo401
+    ip_meta:
+      - 149.22.87.129
+    ip_wg:
+      - 149.22.87.130
+      - 149.22.87.142
+      - 149.22.87.144
+    is_offline: false
+  - rid: japan_2
     id: jp-japan-tokyo-01-154-047-020
     cn: tokyo401
     ip_meta:
@@ -6537,6 +7330,16 @@ data:
       - 156.146.34.157
       - 156.146.34.158
       - 156.146.34.159
+    is_offline: false
+  - rid: japan_2
+    id: jp-japan-tokyo-02-149-022-087
+    cn: tokyo402
+    ip_meta:
+      - 149.22.87.160
+    ip_wg:
+      - 149.22.87.165
+      - 149.22.87.169
+      - 149.22.87.190
     is_offline: false
   - rid: japan
     id: jp-japan-tokyo-02-154-047-020
@@ -6595,6 +7398,16 @@ data:
       - 156.146.34.95
     is_offline: false
   - rid: japan
+    id: jp-japan-tokyo-03-149-022-087
+    cn: tokyo403
+    ip_meta:
+      - 149.22.87.1
+    ip_wg:
+      - 149.22.87.11
+      - 149.22.87.22
+      - 149.22.87.38
+    is_offline: false
+  - rid: japan
     id: jp-japan-tokyo-03-154-047-020
     cn: tokyo403
     ip_meta:
@@ -6637,6 +7450,16 @@ data:
       - 156.146.34.1
     ip_wg:
       - 156.146.34.2
+    is_offline: false
+  - rid: japan
+    id: jp-japan-tokyo-05-149-022-087
+    cn: tokyo405
+    ip_meta:
+      - 149.22.87.60
+    ip_wg:
+      - 149.22.87.72
+      - 149.22.87.74
+      - 149.22.87.77
     is_offline: false
   - rid: japan
     id: jp-japan-tokyo-05-154-047-020
@@ -6721,6 +7544,16 @@ data:
       - 138.199.39.28
       - 138.199.39.30
     is_offline: false
+  - rid: japan
+    id: jp-japan-tokyo-20-155-002-216
+    cn: tokyo420
+    ip_meta:
+      - 155.2.216.1
+    ip_wg:
+      - 155.2.216.10
+      - 155.2.216.14
+      - 155.2.216.16
+    is_offline: false
   - rid: cambodia
     id: kh-cambodia-01-188-215-235
     cn: cambodia401
@@ -6768,6 +7601,15 @@ data:
       - 84.247.102.3
       - 84.247.102.12
     is_offline: false
+  - rid: kr_south_korea-pf
+    id: kr-southkorea-seoul-01-173-244-042
+    cn: seoul401
+    ip_meta:
+      - 173.244.42.2
+    ip_wg:
+      - 173.244.42.8
+      - 173.244.42.13
+    is_offline: false
   - rid: kazakhstan
     id: kz-kazakhstan-02-062-133-047
     cn: kazakhstan402
@@ -6784,6 +7626,7 @@ data:
       - 62.133.47.22
       - 62.133.47.23
       - 62.133.47.24
+      - 62.133.47.25
       - 62.133.47.26
     is_offline: false
   - rid: kazakhstan
@@ -6822,6 +7665,16 @@ data:
       - 91.90.122.30
       - 91.90.122.31
       - 91.90.122.32
+    is_offline: false
+  - rid: liechtenstein
+    id: li-liechtenstein-02-091-090-122
+    cn: liechtenstein402
+    ip_meta:
+      - 91.90.122.33
+    ip_wg:
+      - 91.90.122.39
+      - 91.90.122.44
+      - 91.90.122.45
     is_offline: false
   - rid: liechtenstein
     id: li-liechtenstein-03-091-090-122
@@ -6864,6 +7717,16 @@ data:
       - 95.181.239.11
       - 95.181.239.12
       - 95.181.239.13
+    is_offline: false
+  - rid: srilanka
+    id: lk-srilanka-04-095-181-239
+    cn: srilanka404
+    ip_meta:
+      - 95.181.239.14
+    ip_wg:
+      - 95.181.239.21
+      - 95.181.239.24
+      - 95.181.239.25
     is_offline: false
   - rid: lt
     id: lt-lithuania-vilnius-01-194-032-122
@@ -7029,6 +7892,7 @@ data:
       - 37.46.113.199
       - 37.46.113.200
       - 37.46.113.201
+      - 37.46.113.202
       - 37.46.113.203
       - 37.46.113.204
       - 37.46.113.205
@@ -7077,6 +7941,16 @@ data:
       - 37.46.113.181
       - 37.46.113.183
       - 37.46.113.184
+    is_offline: false
+  - rid: lu
+    id: lu-luxembourg-13-037-046-113
+    cn: luxembourg413
+    ip_meta:
+      - 37.46.113.121
+    ip_wg:
+      - 37.46.113.130
+      - 37.46.113.132
+      - 37.46.113.136
     is_offline: false
   - rid: lv
     id: lv-latvia-riga-04-196-196-053
@@ -7211,6 +8085,16 @@ data:
       - 95.181.232.39
       - 95.181.232.40
     is_offline: false
+  - rid: morocco
+    id: ma-morocco-05-095-181-232
+    cn: morocco405
+    ip_meta:
+      - 95.181.232.41
+    ip_wg:
+      - 95.181.232.44
+      - 95.181.232.45
+      - 95.181.232.50
+    is_offline: false
   - rid: monaco
     id: mc-monaco-03-095-181-233
     cn: monaco403
@@ -7318,8 +8202,25 @@ data:
       - 176.125.229.22
       - 176.125.229.23
       - 176.125.229.24
+      - 176.125.229.27
       - 176.125.229.28
       - 176.125.229.29
+    is_offline: false
+  - rid: mk
+    id: mk-northmacedonia-Server-12457-0a-185-225-028
+    cn: Server-12457-0a
+    ip_meta:
+      - 185.225.28.228
+    ip_wg:
+      - 185.225.28.227
+    is_offline: false
+  - rid: mk
+    id: mk-northmacedonia-Server-12467-0a-185-225-031
+    cn: Server-12467-0a
+    ip_meta:
+      - 185.225.31.20
+    ip_wg:
+      - 185.225.31.19
     is_offline: false
   - rid: mk
     id: mk-northmacedonia-macedonia-01-185-225-028
@@ -7417,6 +8318,15 @@ data:
       - 185.253.163.31
     is_offline: false
   - rid: mongolia
+    id: mn-mongolia-05-173-244-058
+    cn: mongolia405
+    ip_meta:
+      - 173.244.58.13
+    ip_wg:
+      - 173.244.58.20
+      - 173.244.58.21
+    is_offline: false
+  - rid: mongolia
     id: mn-mongolia-05-192-142-227
     cn: mongolia405
     ip_meta:
@@ -7467,6 +8377,7 @@ data:
       - 84.252.92.20
       - 84.252.92.21
       - 84.252.92.22
+      - 84.252.92.23
       - 84.252.92.24
       - 84.252.92.26
       - 84.252.92.27
@@ -7610,6 +8521,7 @@ data:
       - 77.81.142.45
     ip_wg:
       - 77.81.142.46
+      - 77.81.142.47
       - 77.81.142.48
       - 77.81.142.49
       - 77.81.142.50
@@ -7664,6 +8576,7 @@ data:
       - 77.81.142.92
       - 77.81.142.93
       - 77.81.142.94
+      - 77.81.142.95
       - 77.81.142.97
       - 77.81.142.98
       - 77.81.142.100
@@ -7810,6 +8723,16 @@ data:
       - 146.70.65.155
       - 146.70.65.156
     is_offline: false
+  - rid: nigeria
+    id: ng-nigeria-07-146-070-065
+    cn: nigeria407
+    ip_meta:
+      - 146.70.65.157
+    ip_wg:
+      - 146.70.65.158
+      - 146.70.65.163
+      - 146.70.65.167
+    is_offline: false
   - rid: nl_amsterdam
     id: nl-netherlands-amsterdam-02-154-047-021
     cn: amsterdam402
@@ -7853,6 +8776,14 @@ data:
       - 143.244.41.152
     is_offline: false
   - rid: nl_amsterdam
+    id: nl-netherlands-amsterdam-03-158-173-003
+    cn: amsterdam403
+    ip_meta:
+      - 154.47.21.133
+    ip_wg:
+      - 158.173.3.202
+    is_offline: false
+  - rid: nl_amsterdam
     id: nl-netherlands-amsterdam-04-084-247-116
     cn: amsterdam404
     ip_meta:
@@ -7871,6 +8802,26 @@ data:
       - 143.244.41.166
       - 143.244.41.172
       - 143.244.41.180
+    is_offline: false
+  - rid: nl_netherlands-so
+    id: nl-netherlands-amsterdam-04-158-173-003
+    cn: amsterdam404
+    ip_meta:
+      - 154.47.21.134
+    ip_wg:
+      - 158.173.3.209
+      - 158.173.3.230
+      - 158.173.3.244
+    is_offline: false
+  - rid: nl_netherlands-so
+    id: nl-netherlands-amsterdam-05-158-173-021
+    cn: amsterdam405
+    ip_meta:
+      - 154.47.21.141
+    ip_wg:
+      - 158.173.21.1
+      - 158.173.21.16
+      - 158.173.21.19
     is_offline: false
   - rid: nl_amsterdam
     id: nl-netherlands-amsterdam-12-143-244-041
@@ -7901,6 +8852,14 @@ data:
       - 212.102.35.130
     ip_wg:
       - 84.247.116.163
+    is_offline: false
+  - rid: nl_amsterdam
+    id: nl-netherlands-amsterdam-16-158-173-003
+    cn: amsterdam416
+    ip_meta:
+      - 154.47.21.131
+    ip_wg:
+      - 158.173.3.115
     is_offline: false
   - rid: nl_amsterdam
     id: nl-netherlands-amsterdam-16-212-102-035
@@ -7937,6 +8896,7 @@ data:
       - 195.78.54.59
       - 195.78.54.63
       - 195.78.54.78
+      - 195.78.54.80
       - 195.78.54.87
       - 195.78.54.90
       - 195.78.54.101
@@ -8088,6 +9048,14 @@ data:
       - 195.78.54.252
     is_offline: false
   - rid: nl_amsterdam
+    id: nl-netherlands-amsterdam-32-212-056-048
+    cn: amsterdam432
+    ip_meta:
+      - 212.56.48.2
+    ip_wg:
+      - 212.56.48.16
+    is_offline: false
+  - rid: nl_amsterdam
     id: nl-netherlands-amsterdam-33-191-096-168
     cn: amsterdam433
     ip_meta:
@@ -8156,6 +9124,16 @@ data:
       - 181.214.206.252
     is_offline: false
   - rid: nl_amsterdam
+    id: nl-netherlands-amsterdam-38-158-173-003
+    cn: amsterdam438
+    ip_meta:
+      - 154.47.21.132
+    ip_wg:
+      - 158.173.3.146
+      - 158.173.3.156
+      - 158.173.3.160
+    is_offline: false
+  - rid: nl_amsterdam
     id: nl-netherlands-amsterdam-38-212-102-035
     cn: amsterdam438
     ip_meta:
@@ -8181,6 +9159,14 @@ data:
       - 212.102.35.29
       - 212.102.35.30
     is_offline: false
+  - rid: nl_amsterdam
+    id: nl-netherlands-amsterdam-39-158-173-020
+    cn: amsterdam439
+    ip_meta:
+      - 154.47.21.135
+    ip_wg:
+      - 158.173.20.25
+    is_offline: false
   - rid: no
     id: no-norway-oslo-01-046-246-122
     cn: oslo401
@@ -8200,6 +9186,7 @@ data:
       - 46.246.122.47
       - 46.246.122.48
       - 46.246.122.49
+      - 46.246.122.50
       - 46.246.122.51
       - 46.246.122.52
       - 46.246.122.53
@@ -8259,6 +9246,7 @@ data:
       - 46.246.122.104
       - 46.246.122.105
       - 46.246.122.106
+      - 46.246.122.107
       - 46.246.122.108
       - 46.246.122.109
       - 46.246.122.110
@@ -8313,6 +9301,16 @@ data:
       - 46.246.122.189
       - 46.246.122.190
     is_offline: false
+  - rid: no
+    id: no-norway-oslo-07-212-112-019
+    cn: oslo407
+    ip_meta:
+      - 212.112.19.98
+    ip_wg:
+      - 212.112.19.109
+      - 212.112.19.120
+      - 212.112.19.121
+    is_offline: false
   - rid: np_nepal-pf
     id: np-nepal-kathmandu-01-084-247-097
     cn: kathmandu401
@@ -8320,6 +9318,9 @@ data:
       - 84.247.97.2
     ip_wg:
       - 84.247.97.4
+      - 84.247.97.7
+      - 84.247.97.9
+      - 84.247.97.12
       - 84.247.97.13
     is_offline: false
   - rid: nz
@@ -8334,6 +9335,7 @@ data:
       - 179.61.240.6
       - 179.61.240.7
       - 179.61.240.8
+      - 179.61.240.9
       - 179.61.240.10
       - 179.61.240.11
       - 179.61.240.12
@@ -8391,12 +9393,14 @@ data:
       - 179.61.240.76
       - 179.61.240.77
       - 179.61.240.79
+      - 179.61.240.80
       - 179.61.240.82
       - 179.61.240.85
       - 179.61.240.86
       - 179.61.240.87
       - 179.61.240.88
       - 179.61.240.89
+      - 179.61.240.90
       - 179.61.240.91
       - 179.61.240.92
       - 179.61.240.93
@@ -8413,6 +9417,7 @@ data:
       - 179.61.240.111
       - 179.61.240.112
       - 179.61.240.114
+      - 179.61.240.115
       - 179.61.240.116
       - 179.61.240.117
       - 179.61.240.120
@@ -8576,6 +9581,45 @@ data:
       - 91.90.126.85
       - 91.90.126.92
     is_offline: false
+  - rid: panama
+    id: pa-panama-09-091-090-126
+    cn: panama409
+    ip_meta:
+      - 91.90.126.2
+    ip_wg:
+      - 91.90.126.5
+      - 91.90.126.28
+      - 91.90.126.34
+    is_offline: false
+  - rid: panama
+    id: pa-panama-10-091-090-126
+    cn: panama410
+    ip_meta:
+      - 91.90.126.95
+    ip_wg:
+      - 91.90.126.96
+      - 91.90.126.104
+      - 91.90.126.122
+    is_offline: false
+  - rid: panama
+    id: pa-panama-11-091-090-126
+    cn: panama411
+    ip_meta:
+      - 91.90.126.35
+    ip_wg:
+      - 91.90.126.51
+      - 91.90.126.61
+    is_offline: false
+  - rid: pe_peru-pf
+    id: pe-peru-01-045-154-152
+    cn: peru401
+    ip_meta:
+      - 45.154.152.2
+    ip_wg:
+      - 45.154.152.20
+      - 45.154.152.23
+      - 45.154.152.30
+    is_offline: false
   - rid: pe_peru-pf
     id: pe-peru-01-084-247-099
     cn: peru401
@@ -8687,6 +9731,7 @@ data:
       - 138.199.59.198
       - 138.199.59.199
       - 138.199.59.200
+      - 138.199.59.201
       - 138.199.59.202
       - 138.199.59.203
       - 138.199.59.204
@@ -8708,6 +9753,16 @@ data:
       - 138.199.59.220
       - 138.199.59.221
       - 138.199.59.222
+    is_offline: false
+  - rid: poland
+    id: pl-poland-warsaw-14-138-199-059
+    cn: warsaw414
+    ip_meta:
+      - 138.199.59.235
+    ip_wg:
+      - 138.199.59.238
+      - 138.199.59.239
+      - 138.199.59.241
     is_offline: false
   - rid: pt
     id: pt-portugal-lisbon-04-146-070-059
@@ -8890,6 +9945,14 @@ data:
       - 143.244.54.148
       - 143.244.54.149
     is_offline: false
+  - rid: ro
+    id: ro-romania-Server-12475-0a-143-244-052
+    cn: Server-12475-0a
+    ip_meta:
+      - 143.244.52.34
+    ip_wg:
+      - 143.244.52.33
+    is_offline: false
   - rid: rs
     id: rs-serbia-belgrade-02-037-046-115
     cn: belgrade402
@@ -8954,6 +10017,25 @@ data:
       - 95.181.235.157
       - 95.181.235.158
     is_offline: false
+  - rid: saudiarabia
+    id: sa-saudiarabia-05-095-181-235
+    cn: saudiarabia405
+    ip_meta:
+      - 95.181.235.159
+    ip_wg:
+      - 95.181.235.161
+      - 95.181.235.164
+      - 95.181.235.173
+    is_offline: false
+  - rid: sweden
+    id: se-sweden-stockholm-01-046-246-008
+    cn: stockholm401
+    ip_meta:
+      - 46.246.3.4
+    ip_wg:
+      - 46.246.8.4
+      - 46.246.8.30
+    is_offline: false
   - rid: sweden
     id: se-sweden-stockholm-01-195-246-120
     cn: stockholm401
@@ -8976,6 +10058,15 @@ data:
       - 195.246.120.31
       - 195.246.120.33
       - 195.246.120.37
+    is_offline: false
+  - rid: sweden
+    id: se-sweden-stockholm-02-046-246-008
+    cn: stockholm402
+    ip_meta:
+      - 46.246.3.37
+    ip_wg:
+      - 46.246.8.49
+      - 46.246.8.54
     is_offline: false
   - rid: sweden
     id: se-sweden-stockholm-02-195-246-120
@@ -9018,6 +10109,8 @@ data:
     ip_meta:
       - 46.246.3.71
     ip_wg:
+      - 46.246.8.77
+      - 46.246.8.83
       - 46.246.8.87
     is_offline: false
   - rid: sweden
@@ -9128,6 +10221,7 @@ data:
       - 46.246.3.209
       - 46.246.3.210
       - 46.246.3.213
+      - 46.246.3.215
       - 46.246.3.216
       - 46.246.3.217
       - 46.246.3.218
@@ -9188,6 +10282,7 @@ data:
     cn: singapore401
     ip_meta:
       - 156.146.57.171
+      - 156.146.57.172
     ip_wg:
       - 156.146.57.172
       - 156.146.57.174
@@ -9219,6 +10314,7 @@ data:
     cn: singapore402
     ip_meta:
       - 156.146.57.102
+      - 156.146.57.103
     ip_wg:
       - 156.146.57.103
       - 156.146.57.104
@@ -9255,7 +10351,9 @@ data:
     cn: singapore403
     ip_meta:
       - 156.146.57.38
+      - 156.146.57.39
     ip_wg:
+      - 156.146.57.40
       - 156.146.57.41
       - 156.146.57.42
       - 156.146.57.43
@@ -9287,6 +10385,7 @@ data:
     cn: singapore404
     ip_meta:
       - 138.199.24.1
+      - 138.199.24.92
     ip_wg:
       - 138.199.24.2
       - 138.199.24.3
@@ -9302,6 +10401,7 @@ data:
       - 138.199.24.13
       - 138.199.24.14
       - 138.199.24.15
+      - 138.199.24.16
       - 138.199.24.18
       - 138.199.24.20
       - 138.199.24.21
@@ -9353,6 +10453,22 @@ data:
       - 195.80.150.141
       - 195.80.150.142
     is_offline: false
+  - rid: slovenia
+    id: si-slovenia-Server-12458-0a-195-080-150
+    cn: Server-12458-0a
+    ip_meta:
+      - 195.80.150.180
+    ip_wg:
+      - 195.80.150.179
+    is_offline: false
+  - rid: slovenia
+    id: si-slovenia-Server-12466-0a-195-080-150
+    cn: Server-12466-0a
+    ip_meta:
+      - 195.80.150.132
+    ip_wg:
+      - 195.80.150.131
+    is_offline: false
   - rid: sk
     id: sk-slovakia-bratislava-01-037-120-221
     cn: bratislava401
@@ -9397,6 +10513,7 @@ data:
     ip_meta:
       - 149.102.232.1
     ip_wg:
+      - 149.102.232.2
       - 149.102.232.7
       - 149.102.232.14
     is_offline: false
@@ -9406,8 +10523,11 @@ data:
     ip_meta:
       - 149.102.232.28
     ip_wg:
+      - 149.102.232.31
       - 149.102.232.34
       - 149.102.232.43
+      - 149.102.232.44
+      - 149.102.232.45
     is_offline: false
   - rid: tr
     id: tr-turkey-istanbul-01-188-213-034
@@ -9476,6 +10596,14 @@ data:
       - 188.213.34.140
       - 188.213.34.141
       - 188.213.34.142
+    is_offline: false
+  - rid: tr
+    id: tr-turkey-istanbul-05-188-213-034
+    cn: istanbul405
+    ip_meta:
+      - 188.213.34.18
+    ip_wg:
+      - 188.213.34.28
     is_offline: false
   - rid: taiwan
     id: tw-taiwan-01-188-214-106
@@ -9553,6 +10681,7 @@ data:
     ip_wg:
       - 173.244.49.76
       - 173.244.49.78
+      - 173.244.49.81
       - 173.244.49.84
       - 173.244.49.85
       - 173.244.49.86
@@ -9564,6 +10693,16 @@ data:
       - 173.244.49.94
       - 173.244.49.96
       - 173.244.49.97
+    is_offline: false
+  - rid: ua
+    id: ua-ukraine-kiev-07-084-239-042
+    cn: kiev407
+    ip_meta:
+      - 84.239.42.31
+    ip_wg:
+      - 84.239.42.43
+      - 84.239.42.46
+      - 84.239.42.58
     is_offline: false
   - rid: ua
     id: ua-ukraine-kiev-07-154-006-130
@@ -9609,7 +10748,9 @@ data:
       - 84.239.42.9
       - 84.239.42.10
       - 84.239.42.11
+      - 84.239.42.14
       - 84.239.42.15
+      - 84.239.42.17
       - 84.239.42.18
       - 84.239.42.22
       - 84.239.42.24
@@ -9668,6 +10809,14 @@ data:
       - 191.101.209.62
       - 191.101.209.63
       - 191.101.209.64
+    is_offline: false
+  - rid: uk
+    id: uk-unitedkingdom-london-05-158-173-023
+    cn: london405
+    ip_meta:
+      - 212.102.53.12
+    ip_wg:
+      - 158.173.23.7
     is_offline: false
   - rid: uk
     id: uk-unitedkingdom-london-05-212-102-052
@@ -9731,6 +10880,7 @@ data:
       - 194.110.13.7
       - 194.110.13.10
       - 194.110.13.13
+      - 194.110.13.14
       - 194.110.13.15
       - 194.110.13.17
       - 194.110.13.21
@@ -9810,6 +10960,14 @@ data:
       - 138.199.29.23
     is_offline: false
   - rid: uk
+    id: uk-unitedkingdom-london-11-158-173-023
+    cn: london411
+    ip_meta:
+      - 212.102.52.91
+    ip_wg:
+      - 158.173.23.151
+    is_offline: false
+  - rid: uk
     id: uk-unitedkingdom-london-11-212-102-052
     cn: london411
     ip_meta:
@@ -9839,6 +10997,14 @@ data:
       - 138.199.29.50
       - 138.199.29.53
       - 138.199.29.54
+    is_offline: false
+  - rid: uk
+    id: uk-unitedkingdom-london-13-158-173-023
+    cn: london413
+    ip_meta:
+      - 212.102.52.87
+    ip_wg:
+      - 158.173.23.54
     is_offline: false
   - rid: uk
     id: uk-unitedkingdom-london-33-194-110-013
@@ -9928,6 +11094,14 @@ data:
       - 138.199.30.207
     is_offline: false
   - rid: uk_2
+    id: uk-unitedkingdom-london-35-158-173-023
+    cn: london435
+    ip_meta:
+      - 212.102.52.88
+    ip_wg:
+      - 158.173.23.66
+    is_offline: false
+  - rid: uk_2
     id: uk-unitedkingdom-london-41-138-199-030
     cn: london441
     ip_meta:
@@ -9961,6 +11135,15 @@ data:
       - 138.199.30.178
       - 138.199.30.179
     is_offline: false
+  - rid: uk_2
+    id: uk-unitedkingdom-london-41-158-173-024
+    cn: london441
+    ip_meta:
+      - 212.102.52.95
+    ip_wg:
+      - 158.173.24.30
+      - 158.173.24.54
+    is_offline: false
   - rid: uk
     id: uk-unitedkingdom-london-42-191-101-209
     cn: london442
@@ -9987,6 +11170,16 @@ data:
       - 191.101.209.29
       - 191.101.209.30
       - 191.101.209.32
+    is_offline: false
+  - rid: uk_2
+    id: uk-unitedkingdom-london-45-158-173-023
+    cn: london445
+    ip_meta:
+      - 212.102.52.90
+    ip_wg:
+      - 158.173.23.134
+      - 158.173.23.143
+      - 158.173.23.144
     is_offline: false
   - rid: uk_2
     id: uk-unitedkingdom-london-45-212-102-052
@@ -10043,6 +11236,15 @@ data:
       - 138.199.28.72
       - 138.199.28.73
       - 138.199.28.74
+    is_offline: false
+  - rid: uk_2
+    id: uk-unitedkingdom-london-46-158-173-024
+    cn: london446
+    ip_meta:
+      - 212.102.52.96
+    ip_wg:
+      - 158.173.24.4
+      - 158.173.24.7
     is_offline: false
   - rid: uk_manchester
     id: uk-unitedkingdom-manchester-01-193-239-084
@@ -10157,6 +11359,7 @@ data:
       - 45.133.172.51
       - 45.133.172.54
       - 45.133.172.55
+      - 45.133.172.56
       - 45.133.172.58
       - 45.133.172.59
       - 45.133.172.60
@@ -10205,6 +11408,7 @@ data:
       - 45.133.172.195
       - 45.133.172.196
       - 45.133.172.197
+      - 45.133.172.198
       - 45.133.172.199
       - 45.133.172.200
       - 45.133.172.201
@@ -10285,13 +11489,16 @@ data:
     ip_wg:
       - 98.159.234.3
       - 98.159.234.5
+      - 98.159.234.6
       - 98.159.234.10
       - 98.159.234.18
       - 98.159.234.20
       - 98.159.234.21
       - 98.159.234.26
+      - 98.159.234.27
       - 98.159.234.28
       - 98.159.234.33
+      - 98.159.234.36
     is_offline: false
   - rid: uk_southampton
     id: uk-unitedkingdom-southampton-01-143-244-036
@@ -10343,6 +11550,8 @@ data:
       - 98.159.234.42
     ip_wg:
       - 98.159.234.48
+      - 98.159.234.51
+      - 98.159.234.57
       - 98.159.234.58
       - 98.159.234.60
       - 98.159.234.62
@@ -10463,6 +11672,9 @@ data:
       - 98.159.234.147
       - 98.159.234.149
       - 98.159.234.150
+      - 98.159.234.159
+      - 98.159.234.167
+      - 98.159.234.168
     is_offline: false
   - rid: uk_southampton
     id: uk-unitedkingdom-southampton-04-143-244-036
@@ -10511,6 +11723,86 @@ data:
       - 143.244.37.29
       - 143.244.37.31
     is_offline: false
+  - rid: us-kentucky
+    id: us-unitedstates-Server-12401-3a-084-239-006
+    cn: Server-12401-3a
+    ip_meta:
+      - 84.239.6.246
+    ip_wg:
+      - 84.239.6.220
+    is_offline: false
+  - rid: us-tennessee
+    id: us-unitedstates-Server-12402-4a-084-239-010
+    cn: Server-12402-4a
+    ip_meta:
+      - 84.239.10.86
+    ip_wg:
+      - 84.239.10.44
+    is_offline: false
+  - rid: us-indiana
+    id: us-unitedstates-Server-12403-2a-084-239-016
+    cn: Server-12403-2a
+    ip_meta:
+      - 84.239.16.113
+    ip_wg:
+      - 84.239.16.85
+    is_offline: false
+  - rid: us-salt-lake-city
+    id: us-unitedstates-Server-12404-3a-084-239-005
+    cn: Server-12404-3a
+    ip_meta:
+      - 84.239.5.246
+    ip_wg:
+      - 84.239.5.195
+    is_offline: false
+  - rid: us-honolulu
+    id: us-unitedstates-Server-12407-2a-084-239-005
+    cn: Server-12407-2a
+    ip_meta:
+      - 84.239.5.82
+    ip_wg:
+      - 84.239.5.54
+    is_offline: false
+  - rid: us-honolulu
+    id: us-unitedstates-Server-12430-0a-084-239-005
+    cn: Server-12430-0a
+    ip_meta:
+      - 84.239.5.80
+    ip_wg:
+      - 84.239.5.119
+    is_offline: false
+  - rid: us-indiana
+    id: us-unitedstates-Server-12431-0a-084-239-016
+    cn: Server-12431-0a
+    ip_meta:
+      - 84.239.16.57
+    ip_wg:
+      - 84.239.16.120
+    is_offline: false
+  - rid: us-salt-lake-city
+    id: us-unitedstates-Server-12433-0a-084-239-005
+    cn: Server-12433-0a
+    ip_meta:
+      - 84.239.5.212
+    ip_wg:
+      - 84.239.5.209
+    is_offline: false
+  - rid: us-tennessee
+    id: us-unitedstates-Server-12463-0a-084-239-010
+    cn: Server-12463-0a
+    ip_meta:
+      - 84.239.10.64
+    ip_wg:
+      - 84.239.10.97
+    is_offline: false
+  - rid: us-kentucky
+    id: us-unitedstates-Server-12464-0a-084-239-006
+    cn: Server-12464-0a
+    ip_meta:
+      - 84.239.6.158
+    ip_wg:
+      - 84.239.6.130
+    is_offline: false
   - rid: us_alabama-pf
     id: us-unitedstates-alabama-01-154-006-080
     cn: alabama401
@@ -10542,7 +11834,10 @@ data:
     ip_meta:
       - 84.239.6.2
     ip_wg:
+      - 84.239.6.7
       - 84.239.6.9
+      - 84.239.6.11
+      - 84.239.6.19
       - 84.239.6.20
     is_offline: false
   - rid: us_alaska-pf
@@ -10581,6 +11876,16 @@ data:
       - 154.6.93.158
       - 154.6.93.159
       - 154.6.93.160
+    is_offline: false
+  - rid: us_alaska-pf
+    id: us-unitedstates-alaska-02-084-239-052
+    cn: alaska402
+    ip_meta:
+      - 84.239.52.1
+    ip_wg:
+      - 84.239.52.10
+      - 84.239.52.19
+      - 84.239.52.21
     is_offline: false
   - rid: us_atlanta
     id: us-unitedstates-atlanta-10-154-021-021
@@ -10652,6 +11957,14 @@ data:
       - 154.21.22.56
       - 154.21.22.62
       - 154.21.22.66
+    is_offline: false
+  - rid: us_atlanta
+    id: us-unitedstates-atlanta-12-212-032-049
+    cn: atlanta412
+    ip_meta:
+      - 212.32.49.2
+    ip_wg:
+      - 212.32.49.20
     is_offline: false
   - rid: us_atlanta
     id: us-unitedstates-atlanta-13-154-021-022
@@ -10732,6 +12045,14 @@ data:
       - 181.214.167.141
     is_offline: false
   - rid: us_atlanta
+    id: us-unitedstates-atlanta-16-151-241-125
+    cn: atlanta416
+    ip_meta:
+      - 151.241.125.163
+    ip_wg:
+      - 151.241.125.177
+    is_offline: false
+  - rid: us_atlanta
     id: us-unitedstates-atlanta-16-154-021-022
     cn: atlanta416
     ip_meta:
@@ -10771,6 +12092,15 @@ data:
     ip_wg:
       - 181.214.167.196
       - 181.214.167.197
+    is_offline: false
+  - rid: us_atlanta
+    id: us-unitedstates-atlanta-18-151-241-125
+    cn: atlanta418
+    ip_meta:
+      - 151.241.125.227
+    ip_wg:
+      - 151.241.125.234
+      - 151.241.125.243
     is_offline: false
   - rid: us_atlanta
     id: us-unitedstates-atlanta-18-154-021-022
@@ -10831,6 +12161,14 @@ data:
       - 154.21.21.28
       - 154.21.21.32
       - 154.21.21.33
+    is_offline: false
+  - rid: us_atlanta
+    id: us-unitedstates-atlanta-19-212-032-049
+    cn: atlanta419
+    ip_meta:
+      - 212.32.49.156
+    ip_wg:
+      - 212.32.49.175
     is_offline: false
   - rid: us_atlanta
     id: us-unitedstates-atlanta-20-005-182-110
@@ -10897,6 +12235,14 @@ data:
       - 154.21.21.95
     is_offline: false
   - rid: us_atlanta
+    id: us-unitedstates-atlanta-21-212-032-049
+    cn: atlanta421
+    ip_meta:
+      - 212.32.49.206
+    ip_wg:
+      - 212.32.49.243
+    is_offline: false
+  - rid: us_atlanta
     id: us-unitedstates-atlanta-22-154-021-021
     cn: atlanta422
     ip_meta:
@@ -10926,6 +12272,14 @@ data:
       - 5.182.110.132
     is_offline: false
   - rid: us_atlanta
+    id: us-unitedstates-atlanta-23-151-241-123
+    cn: atlanta423
+    ip_meta:
+      - 151.241.123.131
+    ip_wg:
+      - 151.241.123.135
+    is_offline: false
+  - rid: us_atlanta
     id: us-unitedstates-atlanta-23-154-021-021
     cn: atlanta423
     ip_meta:
@@ -10953,6 +12307,14 @@ data:
     ip_wg:
       - 5.182.110.168
       - 5.182.110.190
+    is_offline: false
+  - rid: us_atlanta
+    id: us-unitedstates-atlanta-24-151-241-123
+    cn: atlanta424
+    ip_meta:
+      - 151.241.123.163
+    ip_wg:
+      - 151.241.123.169
     is_offline: false
   - rid: us_atlanta
     id: us-unitedstates-atlanta-24-154-021-021
@@ -11032,6 +12394,14 @@ data:
       - 156.146.46.94
     is_offline: false
   - rid: us_atlanta
+    id: us-unitedstates-atlanta-28-158-173-022
+    cn: atlanta428
+    ip_meta:
+      - 156.146.47.13
+    ip_wg:
+      - 158.173.22.62
+    is_offline: false
+  - rid: us_atlanta
     id: us-unitedstates-atlanta-36-005-182-110
     cn: atlanta436
     ip_meta:
@@ -11063,6 +12433,16 @@ data:
       - 154.21.21.248
       - 154.21.21.250
       - 154.21.21.251
+    is_offline: false
+  - rid: us-baltimore
+    id: us-unitedstates-baltimore-01-084-239-043
+    cn: baltimore401
+    ip_meta:
+      - 84.239.43.1
+    ip_wg:
+      - 84.239.43.2
+      - 84.239.43.22
+      - 84.239.43.31
     is_offline: false
   - rid: us-baltimore
     id: us-unitedstates-baltimore-01-149-057-016
@@ -11099,6 +12479,16 @@ data:
       - 149.57.16.30
       - 149.57.16.31
       - 149.57.16.32
+    is_offline: false
+  - rid: us-baltimore
+    id: us-unitedstates-baltimore-02-084-239-043
+    cn: baltimore402
+    ip_meta:
+      - 84.239.43.32
+    ip_wg:
+      - 84.239.43.35
+      - 84.239.43.42
+      - 84.239.43.51
     is_offline: false
   - rid: us-baltimore
     id: us-unitedstates-baltimore-02-149-057-016
@@ -11199,6 +12589,7 @@ data:
       - 181.214.165.71
       - 181.214.165.73
       - 181.214.165.84
+      - 181.214.165.85
       - 181.214.165.96
       - 181.214.165.97
     is_offline: false
@@ -11237,6 +12628,7 @@ data:
       - 181.214.165.144
     ip_wg:
       - 181.214.165.145
+      - 181.214.165.150
       - 181.214.165.153
       - 181.214.165.155
       - 181.214.165.159
@@ -11284,6 +12676,7 @@ data:
       - 181.214.164.34
       - 181.214.164.36
       - 181.214.164.37
+      - 181.214.164.40
       - 181.214.164.43
       - 181.214.164.45
       - 181.214.164.46
@@ -11328,6 +12721,7 @@ data:
       - 181.214.164.128
       - 181.214.164.129
       - 181.214.164.133
+      - 181.214.164.134
       - 181.214.164.139
       - 181.214.164.142
     is_offline: false
@@ -11380,6 +12774,7 @@ data:
       - 181.214.164.243
       - 181.214.164.244
       - 181.214.164.248
+      - 181.214.164.250
     is_offline: false
   - rid: us_chicago
     id: us-unitedstates-chicago-16-181-214-166
@@ -11461,6 +12856,7 @@ data:
     ip_meta:
       - 181.214.166.190
     ip_wg:
+      - 181.214.166.193
       - 181.214.166.194
       - 181.214.166.195
       - 181.214.166.200
@@ -11500,6 +12896,14 @@ data:
       - 212.102.58.178
       - 212.102.58.181
     is_offline: false
+  - rid: us_chicago
+    id: us-unitedstates-chicago-29-212-102-059
+    cn: chicago429
+    ip_meta:
+      - 212.102.59.191
+    ip_wg:
+      - 212.102.59.206
+    is_offline: false
   - rid: us_connecticut-pf
     id: us-unitedstates-connecticut-01-173-239-232
     cn: connecticut401
@@ -11536,9 +12940,13 @@ data:
     id: us-unitedstates-connecticut-02-084-239-047
     cn: connecticut402
     ip_meta:
+      - 84.239.47.1
       - 84.239.47.2
     ip_wg:
+      - 84.239.47.3
       - 84.239.47.5
+      - 84.239.47.8
+      - 84.239.47.11
       - 84.239.47.20
     is_offline: false
   - rid: us_connecticut-pf
@@ -11548,6 +12956,16 @@ data:
       - 173.239.232.28
     ip_wg:
       - 173.239.232.50
+    is_offline: false
+  - rid: us_connecticut-pf
+    id: us-unitedstates-connecticut-04-084-239-047
+    cn: connecticut404
+    ip_meta:
+      - 84.239.47.61
+    ip_wg:
+      - 84.239.47.77
+      - 84.239.47.83
+      - 84.239.47.88
     is_offline: false
   - rid: us_south_west
     id: us-unitedstates-dallas-04-154-003-251
@@ -11705,6 +13123,7 @@ data:
       - 102.129.234.5
       - 102.129.234.8
       - 102.129.234.10
+      - 102.129.234.18
       - 102.129.234.20
       - 102.129.234.32
       - 102.129.234.40
@@ -11763,11 +13182,13 @@ data:
       - 102.129.234.97
     ip_wg:
       - 102.129.234.103
+      - 102.129.234.105
       - 102.129.234.106
       - 102.129.234.112
       - 102.129.234.115
       - 102.129.234.118
       - 102.129.234.121
+      - 102.129.234.131
       - 102.129.234.136
       - 102.129.234.140
       - 102.129.234.143
@@ -12042,6 +13463,23 @@ data:
       - 156.146.39.157
       - 156.146.39.158
     is_offline: false
+  - rid: us_south_west
+    id: us-unitedstates-dallas-43-156-146-039
+    cn: dallas443
+    ip_meta:
+      - 156.146.39.61
+    ip_wg:
+      - 156.146.39.96
+    is_offline: false
+  - rid: us_south_west
+    id: us-unitedstates-dallas-44-156-146-039
+    cn: dallas444
+    ip_meta:
+      - 156.146.39.187
+    ip_wg:
+      - 156.146.39.192
+      - 156.146.39.206
+    is_offline: false
   - rid: us_denver
     id: us-unitedstates-denver-06-181-041-206
     cn: denver406
@@ -12229,6 +13667,7 @@ data:
       - 181.41.206.175
       - 181.41.206.176
       - 181.41.206.179
+      - 181.41.206.180
       - 181.41.206.181
     is_offline: false
   - rid: us_denver
@@ -12330,6 +13769,8 @@ data:
       - 37.19.210.76
       - 37.19.210.77
       - 37.19.210.78
+      - 37.19.210.81
+      - 37.19.210.91
       - 37.19.210.131
     is_offline: false
   - rid: us-honolulu
@@ -12491,6 +13932,7 @@ data:
       - 191.96.67.242
       - 191.96.67.243
       - 191.96.67.245
+      - 191.96.67.246
       - 191.96.67.247
       - 191.96.67.249
     is_offline: false
@@ -12537,6 +13979,7 @@ data:
       - 37.19.221.12
       - 37.19.221.13
       - 37.19.221.15
+      - 37.19.221.16
       - 37.19.221.17
       - 37.19.221.18
       - 37.19.221.19
@@ -12609,10 +14052,14 @@ data:
     id: us-unitedstates-idaho-02-084-239-012
     cn: idaho402
     ip_meta:
+      - 84.239.12.129
       - 84.239.12.130
     ip_wg:
       - 84.239.12.139
+      - 84.239.12.140
+      - 84.239.12.143
       - 84.239.12.145
+      - 84.239.12.148
     is_offline: false
   - rid: us_indiana-pf
     id: us-unitedstates-indiana-01-154-006-085
@@ -12644,7 +14091,7 @@ data:
       - 154.6.85.26
       - 154.6.85.27
       - 154.6.85.28
-    is_offline: false
+    is_offline: true
   - rid: us_indiana-pf
     id: us-unitedstates-indiana-02-154-006-085
     cn: indiana402
@@ -12673,6 +14120,16 @@ data:
       - 84.239.16.2
     ip_wg:
       - 84.239.16.18
+    is_offline: false
+  - rid: us_iowa-pf
+    id: us-unitedstates-iowa-01-084-239-017
+    cn: iowa401
+    ip_meta:
+      - 143.244.60.144
+    ip_wg:
+      - 84.239.17.22
+      - 84.239.17.23
+      - 84.239.17.32
     is_offline: false
   - rid: us_iowa-pf
     id: us-unitedstates-iowa-01-154-006-085
@@ -12711,10 +14168,14 @@ data:
     id: us-unitedstates-iowa-02-084-239-017
     cn: iowa402
     ip_meta:
+      - 84.239.17.1
       - 84.239.17.2
     ip_wg:
+      - 84.239.17.5
+      - 84.239.17.6
       - 84.239.17.9
       - 84.239.17.11
+      - 84.239.17.16
     is_offline: false
   - rid: us_kansas-pf
     id: us-unitedstates-kansas-01-154-006-089
@@ -12752,8 +14213,10 @@ data:
     id: us-unitedstates-kansas-02-084-239-031
     cn: kansas402
     ip_meta:
+      - 84.239.31.1
       - 84.239.31.2
     ip_wg:
+      - 84.239.31.3
       - 84.239.31.5
       - 84.239.31.14
     is_offline: false
@@ -12783,7 +14246,7 @@ data:
       - 154.6.80.148
       - 154.6.80.149
       - 154.6.80.150
-    is_offline: false
+    is_offline: true
   - rid: us_kentucky-pf
     id: us-unitedstates-kentucky-02-084-239-006
     cn: kentucky402
@@ -12887,6 +14350,16 @@ data:
       - 154.16.105.193
     is_offline: false
   - rid: us_las_vegas
+    id: us-unitedstates-lasvegas-18-212-032-050
+    cn: lasvegas418
+    ip_meta:
+      - 212.32.50.9
+    ip_wg:
+      - 212.32.50.240
+      - 212.32.50.244
+      - 212.32.50.248
+    is_offline: false
+  - rid: us_las_vegas
     id: us-unitedstates-lasvegas-19-154-016-105
     cn: lasvegas419
     ip_meta:
@@ -12902,6 +14375,16 @@ data:
       - 154.16.105.215
       - 154.16.105.224
       - 154.16.105.225
+    is_offline: false
+  - rid: us_las_vegas
+    id: us-unitedstates-lasvegas-19-212-032-050
+    cn: lasvegas419
+    ip_meta:
+      - 212.32.50.2
+    ip_wg:
+      - 212.32.50.26
+      - 212.32.50.29
+      - 212.32.50.40
     is_offline: false
   - rid: us_las_vegas
     id: us-unitedstates-lasvegas-20-154-016-105
@@ -12920,6 +14403,14 @@ data:
       - 154.16.105.247
       - 154.16.105.251
       - 154.16.105.254
+    is_offline: false
+  - rid: us_las_vegas
+    id: us-unitedstates-lasvegas-20-212-032-050
+    cn: lasvegas420
+    ip_meta:
+      - 212.32.50.3
+    ip_wg:
+      - 212.32.50.70
     is_offline: false
   - rid: us_las_vegas
     id: us-unitedstates-lasvegas-21-191-101-061
@@ -12955,6 +14446,14 @@ data:
       - 191.101.61.100
       - 191.101.61.101
       - 191.101.61.102
+    is_offline: false
+  - rid: us_las_vegas
+    id: us-unitedstates-lasvegas-22-212-032-050
+    cn: lasvegas422
+    ip_meta:
+      - 212.32.50.6
+    ip_wg:
+      - 212.32.50.163
     is_offline: false
   - rid: us_las_vegas
     id: us-unitedstates-lasvegas-23-191-101-061
@@ -13158,6 +14657,16 @@ data:
       - 154.6.81.29
     is_offline: false
   - rid: us_arkansas-pf
+    id: us-unitedstates-littlerock-02-045-152-150
+    cn: littlerock402
+    ip_meta:
+      - 45.152.150.129
+    ip_wg:
+      - 45.152.150.130
+      - 45.152.150.137
+      - 45.152.150.139
+    is_offline: false
+  - rid: us_arkansas-pf
     id: us-unitedstates-littlerock-02-084-239-028
     cn: littlerock402
     ip_meta:
@@ -13262,6 +14771,7 @@ data:
       - 191.96.106.10
       - 191.96.106.11
       - 191.96.106.18
+      - 191.96.106.22
       - 191.96.106.24
       - 191.96.106.26
       - 191.96.106.27
@@ -13316,6 +14826,7 @@ data:
       - 102.129.145.104
       - 102.129.145.105
       - 102.129.145.107
+      - 102.129.145.108
       - 102.129.145.109
       - 102.129.145.110
       - 102.129.145.111
@@ -13344,7 +14855,9 @@ data:
       - 102.129.145.144
       - 102.129.145.149
       - 102.129.145.150
+      - 102.129.145.153
       - 102.129.145.154
+      - 102.129.145.158
       - 102.129.145.159
     is_offline: false
   - rid: us_california
@@ -13491,6 +15004,7 @@ data:
       - 191.96.106.196
       - 191.96.106.197
       - 191.96.106.199
+      - 191.96.106.200
       - 191.96.106.203
       - 191.96.106.204
       - 191.96.106.205
@@ -13505,12 +15019,13 @@ data:
       - 191.96.106.216
       - 191.96.106.218
     is_offline: false
-  - rid: us_california
+  - rid: us-streaming-2
     id: us-unitedstates-losangeles-38-191-096-106
     cn: losangeles438
     ip_meta:
       - 191.96.106.9
     ip_wg:
+      - 191.96.106.220
       - 191.96.106.223
       - 191.96.106.225
       - 191.96.106.226
@@ -13520,6 +15035,7 @@ data:
       - 191.96.106.235
       - 191.96.106.238
       - 191.96.106.243
+      - 191.96.106.244
       - 191.96.106.249
     is_offline: false
   - rid: us_california
@@ -13582,6 +15098,16 @@ data:
       - 154.6.81.155
     is_offline: false
   - rid: us_louisiana-pf
+    id: us-unitedstates-louisiana-02-045-152-150
+    cn: louisiana402
+    ip_meta:
+      - 45.152.150.1
+    ip_wg:
+      - 45.152.150.10
+      - 45.152.150.11
+      - 45.152.150.13
+    is_offline: false
+  - rid: us_louisiana-pf
     id: us-unitedstates-louisiana-02-084-239-028
     cn: louisiana402
     ip_meta:
@@ -13627,8 +15153,11 @@ data:
     ip_meta:
       - 84.239.37.2
     ip_wg:
+      - 84.239.37.6
       - 84.239.37.9
       - 84.239.37.18
+      - 84.239.37.19
+      - 84.239.37.20
     is_offline: false
   - rid: us_massachusetts-pf
     id: us-unitedstates-massachusetts-01-154-006-013
@@ -13697,6 +15226,9 @@ data:
       - 149.40.50.33
     ip_wg:
       - 149.40.50.34
+      - 149.40.50.49
+      - 149.40.50.54
+      - 149.40.50.57
     is_offline: false
   - rid: us_massachusetts-pf
     id: us-unitedstates-massachusetts-05-149-040-050
@@ -13704,6 +15236,9 @@ data:
     ip_meta:
       - 149.40.50.1
     ip_wg:
+      - 149.40.50.5
+      - 149.40.50.7
+      - 149.40.50.15
       - 149.40.50.18
     is_offline: false
   - rid: us_florida
@@ -13718,6 +15253,7 @@ data:
       - 143.244.34.16
       - 143.244.34.21
       - 143.244.34.24
+      - 143.244.34.205
       - 143.244.34.210
       - 143.244.34.213
       - 143.244.34.214
@@ -13787,6 +15323,7 @@ data:
       - 102.129.152.71
       - 102.129.152.72
       - 102.129.152.73
+      - 102.129.152.74
       - 102.129.152.75
       - 102.129.152.77
       - 102.129.152.79
@@ -13815,6 +15352,7 @@ data:
       - 102.129.152.110
       - 102.129.152.111
       - 102.129.152.116
+      - 102.129.152.118
       - 102.129.152.119
       - 102.129.152.120
       - 102.129.152.124
@@ -13920,6 +15458,7 @@ data:
       - 102.129.153.82
       - 102.129.153.86
       - 102.129.153.88
+      - 102.129.153.90
       - 102.129.153.91
       - 102.129.153.92
       - 102.129.153.93
@@ -13936,6 +15475,7 @@ data:
     ip_meta:
       - 102.129.153.5
     ip_wg:
+      - 102.129.153.102
       - 102.129.153.103
       - 102.129.153.104
       - 102.129.153.105
@@ -14075,10 +15615,23 @@ data:
     id: us-unitedstates-michigan-03-084-239-017
     cn: michigan403
     ip_meta:
+      - 84.239.17.129
       - 84.239.17.130
     ip_wg:
+      - 84.239.17.132
+      - 84.239.17.136
       - 84.239.17.139
       - 84.239.17.141
+    is_offline: false
+  - rid: us_michigan-pf
+    id: us-unitedstates-michigan-04-084-239-017
+    cn: michigan404
+    ip_meta:
+      - 84.239.17.150
+    ip_wg:
+      - 84.239.17.154
+      - 84.239.17.164
+      - 84.239.17.168
     is_offline: false
   - rid: us_minnesota-pf
     id: us-unitedstates-minnesota-01-154-006-086
@@ -14117,9 +15670,12 @@ data:
     id: us-unitedstates-minnesota-02-084-239-025
     cn: minnesota402
     ip_meta:
+      - 84.239.25.1
       - 84.239.25.2
     ip_wg:
+      - 84.239.25.2
       - 84.239.25.7
+      - 84.239.25.14
       - 84.239.25.19
     is_offline: false
   - rid: us_mississippi-pf
@@ -14157,10 +15713,14 @@ data:
     id: us-unitedstates-mississippi-02-084-239-031
     cn: mississippi402
     ip_meta:
+      - 84.239.31.129
       - 84.239.31.130
     ip_wg:
       - 84.239.31.137
       - 84.239.31.139
+      - 84.239.31.140
+      - 84.239.31.142
+      - 84.239.31.144
     is_offline: false
   - rid: us_missouri-pf
     id: us-unitedstates-missouri-01-154-006-087
@@ -14197,10 +15757,24 @@ data:
     id: us-unitedstates-missouri-02-084-239-016
     cn: missouri402
     ip_meta:
+      - 84.239.16.129
       - 84.239.16.130
     ip_wg:
+      - 84.239.16.136
+      - 84.239.16.139
+      - 84.239.16.140
       - 84.239.16.144
       - 84.239.16.146
+    is_offline: false
+  - rid: us_missouri-pf
+    id: us-unitedstates-missouri-04-084-239-016
+    cn: missouri404
+    ip_meta:
+      - 84.239.16.150
+    ip_wg:
+      - 84.239.16.170
+      - 84.239.16.178
+      - 84.239.16.181
     is_offline: false
   - rid: us_montana-pf
     id: us-unitedstates-montana-01-154-006-091
@@ -14239,9 +15813,12 @@ data:
     id: us-unitedstates-montana-02-084-239-047
     cn: montana402
     ip_meta:
+      - 84.239.47.129
       - 84.239.47.130
     ip_wg:
+      - 84.239.47.131
       - 84.239.47.139
+      - 84.239.47.140
       - 84.239.47.145
     is_offline: false
   - rid: us_nebraska-pf
@@ -14280,10 +15857,14 @@ data:
     id: us-unitedstates-nebraska-02-084-239-025
     cn: nebraska402
     ip_meta:
+      - 84.239.25.129
       - 84.239.25.130
     ip_wg:
+      - 84.239.25.131
       - 84.239.25.135
       - 84.239.25.141
+      - 84.239.25.143
+      - 84.239.25.144
     is_offline: false
   - rid: us_new_hampshire-pf
     id: us-unitedstates-newhampshire-01-154-006-013
@@ -14326,6 +15907,18 @@ data:
     ip_wg:
       - 84.239.41.6
       - 84.239.41.10
+      - 84.239.41.11
+      - 84.239.41.18
+    is_offline: false
+  - rid: us_new_hampshire-pf
+    id: us-unitedstates-newhampshire-03-084-239-041
+    cn: newhampshire403
+    ip_meta:
+      - 84.239.41.21
+    ip_wg:
+      - 84.239.41.26
+      - 84.239.41.29
+      - 84.239.41.36
     is_offline: false
   - rid: us-streaming
     id: us-unitedstates-newjersey-01-143-244-044
@@ -14414,7 +16007,7 @@ data:
       - 37.19.197.215
       - 37.19.197.217
     is_offline: false
-  - rid: us-streaming
+  - rid: us-newjersey
     id: us-unitedstates-newjersey-19-037-019-197
     cn: newjersey419
     ip_meta:
@@ -14446,7 +16039,7 @@ data:
       - 37.19.197.157
       - 37.19.197.158
     is_offline: false
-  - rid: us-streaming
+  - rid: us-newjersey
     id: us-unitedstates-newjersey-20-037-019-197
     cn: newjersey420
     ip_meta:
@@ -14611,6 +16204,16 @@ data:
       - 102.165.16.155
     is_offline: false
   - rid: us-newjersey
+    id: us-unitedstates-newjersey-29-151-241-122
+    cn: newjersey429
+    ip_meta:
+      - 151.241.122.6
+    ip_wg:
+      - 151.241.122.134
+      - 151.241.122.141
+      - 151.241.122.151
+    is_offline: false
+  - rid: us-newjersey
     id: us-unitedstates-newjersey-30-102-165-016
     cn: newjersey430
     ip_meta:
@@ -14634,6 +16237,15 @@ data:
       - 102.165.16.184
       - 102.165.16.185
       - 102.165.16.189
+    is_offline: false
+  - rid: us-newjersey
+    id: us-unitedstates-newjersey-30-212-056-054
+    cn: newjersey430
+    ip_meta:
+      - 212.56.54.2
+    ip_wg:
+      - 212.56.54.47
+      - 212.56.54.48
     is_offline: false
   - rid: us-newjersey
     id: us-unitedstates-newjersey-31-102-165-016
@@ -14734,6 +16346,23 @@ data:
       - 191.96.185.96
     is_offline: false
   - rid: us-newjersey
+    id: us-unitedstates-newjersey-35-212-056-054
+    cn: newjersey435
+    ip_meta:
+      - 212.56.54.7
+    ip_wg:
+      - 212.56.54.218
+    is_offline: false
+  - rid: us-streaming
+    id: us-unitedstates-newjersey-36-151-241-119
+    cn: newjersey436
+    ip_meta:
+      - 151.241.119.5
+    ip_wg:
+      - 151.241.119.116
+      - 151.241.119.120
+    is_offline: false
+  - rid: us-newjersey
     id: us-unitedstates-newjersey-36-191-096-185
     cn: newjersey436
     ip_meta:
@@ -14748,6 +16377,15 @@ data:
       - 191.96.185.120
       - 191.96.185.122
       - 191.96.185.129
+    is_offline: false
+  - rid: us-streaming
+    id: us-unitedstates-newjersey-37-151-241-119
+    cn: newjersey437
+    ip_meta:
+      - 151.241.119.6
+    ip_wg:
+      - 151.241.119.133
+      - 151.241.119.150
     is_offline: false
   - rid: us-newjersey
     id: us-unitedstates-newjersey-37-191-096-185
@@ -14769,6 +16407,15 @@ data:
       - 191.96.185.153
       - 191.96.185.158
       - 191.96.185.159
+    is_offline: false
+  - rid: us-streaming
+    id: us-unitedstates-newjersey-38-151-241-119
+    cn: newjersey438
+    ip_meta:
+      - 151.241.119.7
+    ip_wg:
+      - 151.241.119.164
+      - 151.241.119.174
     is_offline: false
   - rid: us-newjersey
     id: us-unitedstates-newjersey-38-191-096-185
@@ -14866,9 +16513,13 @@ data:
     id: us-unitedstates-newmexico-02-084-239-033
     cn: newmexico402
     ip_meta:
+      - 84.239.33.1
       - 84.239.33.2
     ip_wg:
       - 84.239.33.5
+      - 84.239.33.8
+      - 84.239.33.10
+      - 84.239.33.17
       - 84.239.33.20
     is_offline: false
   - rid: us_new_york_city
@@ -14888,6 +16539,14 @@ data:
       - 37.19.198.151
       - 37.19.198.153
       - 37.19.198.155
+    is_offline: false
+  - rid: us_new_york_city
+    id: us-unitedstates-newyork-32-158-173-025
+    cn: newyork432
+    ip_meta:
+      - 37.19.198.167
+    ip_wg:
+      - 158.173.25.99
     is_offline: false
   - rid: us_new_york_city
     id: us-unitedstates-newyork-33-037-019-198
@@ -15071,6 +16730,16 @@ data:
       - 154.16.192.158
     is_offline: false
   - rid: us_new_york_city
+    id: us-unitedstates-newyork-41-151-240-205
+    cn: newyork441
+    ip_meta:
+      - 151.240.205.2
+    ip_wg:
+      - 151.240.205.8
+      - 151.240.205.39
+      - 151.240.205.42
+    is_offline: false
+  - rid: us_new_york_city
     id: us-unitedstates-newyork-41-191-096-227
     cn: newyork441
     ip_meta:
@@ -15099,6 +16768,15 @@ data:
       - 191.96.227.44
       - 191.96.227.46
       - 191.96.227.48
+    is_offline: false
+  - rid: us_new_york_city
+    id: us-unitedstates-newyork-42-151-240-205
+    cn: newyork442
+    ip_meta:
+      - 151.240.205.3
+    ip_wg:
+      - 151.240.205.50
+      - 151.240.205.52
     is_offline: false
   - rid: us_new_york_city
     id: us-unitedstates-newyork-42-191-096-227
@@ -15142,6 +16820,16 @@ data:
       - 191.96.227.121
       - 191.96.227.124
       - 191.96.227.126
+    is_offline: false
+  - rid: us_new_york_city
+    id: us-unitedstates-newyork-44-151-240-205
+    cn: newyork444
+    ip_meta:
+      - 151.240.205.5
+    ip_wg:
+      - 151.240.205.156
+      - 151.240.205.159
+      - 151.240.205.160
     is_offline: false
   - rid: us_new_york_city
     id: us-unitedstates-newyork-44-191-096-227
@@ -15217,9 +16905,12 @@ data:
     id: us-unitedstates-northcarolina-02-084-239-007
     cn: northcarolina402
     ip_meta:
+      - 84.239.7.1
       - 84.239.7.2
     ip_wg:
       - 84.239.7.8
+      - 84.239.7.15
+      - 84.239.7.17
       - 84.239.7.20
     is_offline: false
   - rid: us_north_dakota-pf
@@ -15258,10 +16949,14 @@ data:
     id: us-unitedstates-northdakota-02-084-239-048
     cn: northdakota402
     ip_meta:
+      - 84.239.48.1
       - 84.239.48.2
     ip_wg:
       - 84.239.48.5
+      - 84.239.48.7
       - 84.239.48.9
+      - 84.239.48.11
+      - 84.239.48.12
     is_offline: false
   - rid: us_ohio-pf
     id: us-unitedstates-ohio-01-154-006-088
@@ -15320,10 +17015,24 @@ data:
     id: us-unitedstates-ohio-03-084-239-027
     cn: ohio403
     ip_meta:
+      - 84.239.27.129
       - 84.239.27.130
     ip_wg:
+      - 84.239.27.136
       - 84.239.27.143
+      - 84.239.27.144
+      - 84.239.27.149
       - 84.239.27.150
+    is_offline: false
+  - rid: us_ohio-pf
+    id: us-unitedstates-ohio-04-084-239-027
+    cn: ohio404
+    ip_meta:
+      - 84.239.27.150
+    ip_wg:
+      - 84.239.27.156
+      - 84.239.27.159
+      - 84.239.27.171
     is_offline: false
   - rid: us_oklahoma-pf
     id: us-unitedstates-oklahoma-01-154-006-090
@@ -15361,9 +17070,12 @@ data:
     id: us-unitedstates-oklahoma-02-084-239-033
     cn: oklahoma402
     ip_meta:
+      - 84.239.33.129
       - 84.239.33.130
     ip_wg:
+      - 84.239.33.134
       - 84.239.33.143
+      - 84.239.33.145
       - 84.239.33.150
     is_offline: false
   - rid: us_oregon-pf
@@ -15401,9 +17113,12 @@ data:
     id: us-unitedstates-oregon-02-084-239-048
     cn: oregon402
     ip_meta:
+      - 84.239.48.129
       - 84.239.48.130
     ip_wg:
       - 84.239.48.131
+      - 84.239.48.133
+      - 84.239.48.140
       - 84.239.48.146
     is_offline: false
   - rid: us_pennsylvania-pf
@@ -15463,10 +17178,41 @@ data:
     id: us-unitedstates-pennsylvania-03-084-239-041
     cn: pennsylvania403
     ip_meta:
+      - 84.239.41.129
       - 84.239.41.130
     ip_wg:
+      - 84.239.41.136
+      - 84.239.41.138
       - 84.239.41.140
       - 84.239.41.148
+      - 84.239.41.150
+    is_offline: false
+  - rid: us_pennsylvania-pf
+    id: us-unitedstates-pennsylvania-04-084-239-041
+    cn: pennsylvania404
+    ip_meta:
+      - 84.239.41.190
+    ip_wg:
+      - 84.239.41.198
+      - 84.239.41.204
+    is_offline: false
+  - rid: us3
+    id: us-unitedstates-phoenix-03-173-244-056
+    cn: phoenix403
+    ip_meta:
+      - 173.244.56.11
+    ip_wg:
+      - 173.244.56.15
+      - 173.244.56.20
+    is_offline: false
+  - rid: us3
+    id: us-unitedstates-phoenix-05-173-244-056
+    cn: phoenix405
+    ip_meta:
+      - 173.244.56.65
+    ip_wg:
+      - 173.244.56.76
+      - 173.244.56.79
     is_offline: false
   - rid: us-streaming-2
     id: us-unitedstates-phoenix-06-184-170-241
@@ -15806,6 +17552,32 @@ data:
       - 184.170.242.248
       - 184.170.242.251
     is_offline: false
+  - rid: us3
+    id: us-unitedstates-phoenix-21-173-244-056
+    cn: phoenix421
+    ip_meta:
+      - 173.244.56.97
+    ip_wg:
+      - 173.244.56.109
+      - 173.244.56.120
+    is_offline: false
+  - rid: us3
+    id: us-unitedstates-phoenix-22-173-244-056
+    cn: phoenix422
+    ip_meta:
+      - 173.244.56.129
+    ip_wg:
+      - 173.244.56.134
+    is_offline: false
+  - rid: us3
+    id: us-unitedstates-phoenix-32-173-244-056
+    cn: phoenix432
+    ip_meta:
+      - 173.244.56.204
+    ip_wg:
+      - 173.244.56.231
+      - 173.244.56.233
+    is_offline: false
   - rid: us_rhode_island-pf
     id: us-unitedstates-rhodeisland-01-154-006-094
     cn: rhodeisland401
@@ -15844,6 +17616,7 @@ data:
     ip_meta:
       - 84.239.45.2
     ip_wg:
+      - 84.239.45.3
       - 84.239.45.7
       - 84.239.45.9
     is_offline: false
@@ -15880,7 +17653,7 @@ data:
       - 149.57.29.157
       - 149.57.29.158
       - 149.57.29.159
-    is_offline: false
+    is_offline: true
   - rid: us-saltlakecity
     id: us-unitedstates-saltlake-02-149-057-029
     cn: saltlake402
@@ -15943,6 +17716,16 @@ data:
       - 156.146.48.39
     is_offline: false
   - rid: us_seattle
+    id: us-unitedstates-seattle-01-158-173-153
+    cn: seattle401
+    ip_meta:
+      - 156.146.49.4
+    ip_wg:
+      - 158.173.153.59
+      - 158.173.153.84
+      - 158.173.153.105
+    is_offline: false
+  - rid: us_seattle
     id: us-unitedstates-seattle-01-212-102-046
     cn: seattle401
     ip_meta:
@@ -15969,6 +17752,15 @@ data:
       - 154.9.128.25
       - 154.9.128.28
       - 154.9.128.31
+    is_offline: false
+  - rid: us_seattle
+    id: us-unitedstates-seattle-04-191-096-103
+    cn: seattle404
+    ip_meta:
+      - 191.96.103.2
+    ip_wg:
+      - 191.96.103.23
+      - 191.96.103.25
     is_offline: false
   - rid: us_seattle
     id: us-unitedstates-seattle-06-154-009-128
@@ -16108,6 +17900,7 @@ data:
       - 191.96.37.40
       - 191.96.37.41
       - 191.96.37.45
+      - 191.96.37.49
       - 191.96.37.50
       - 191.96.37.58
       - 191.96.37.62
@@ -16284,6 +18077,15 @@ data:
       - 156.146.48.228
     is_offline: false
   - rid: us_seattle
+    id: us-unitedstates-seattle-22-158-173-153
+    cn: seattle422
+    ip_meta:
+      - 156.146.49.5
+    ip_wg:
+      - 158.173.153.140
+      - 158.173.153.153
+    is_offline: false
+  - rid: us_seattle
     id: us-unitedstates-seattle-22-212-102-046
     cn: seattle422
     ip_meta:
@@ -16303,6 +18105,14 @@ data:
       - 156.146.48.154
       - 156.146.48.158
       - 156.146.48.161
+    is_offline: false
+  - rid: us_seattle
+    id: us-unitedstates-seattle-23-158-173-153
+    cn: seattle423
+    ip_meta:
+      - 156.146.49.2
+    ip_wg:
+      - 158.173.153.50
     is_offline: false
   - rid: us_seattle
     id: us-unitedstates-seattle-23-212-102-046
@@ -16391,6 +18201,7 @@ data:
       - 102.129.232.117
       - 102.129.232.123
       - 102.129.232.131
+      - 102.129.232.138
       - 102.129.232.141
     is_offline: false
   - rid: us_silicon_valley
@@ -16415,6 +18226,7 @@ data:
       - 102.129.232.157
       - 102.129.232.164
       - 102.129.232.173
+      - 102.129.232.174
       - 102.129.232.178
     is_offline: false
   - rid: us_silicon_valley
@@ -16488,6 +18300,7 @@ data:
     ip_wg:
       - 102.129.232.190
       - 102.129.232.191
+      - 102.129.232.192
       - 102.129.232.193
       - 102.129.232.194
       - 102.129.232.195
@@ -16497,6 +18310,7 @@ data:
       - 102.129.232.199
       - 102.129.232.200
       - 102.129.232.201
+      - 102.129.232.202
       - 102.129.232.203
       - 102.129.232.204
       - 102.129.232.205
@@ -16561,6 +18375,14 @@ data:
       - 154.21.208.31
       - 154.21.208.41
       - 154.21.208.44
+    is_offline: false
+  - rid: us_silicon_valley
+    id: us-unitedstates-siliconvalley-09-102-129-252
+    cn: siliconvalley409
+    ip_meta:
+      - 102.129.252.51
+    ip_wg:
+      - 102.129.252.58
     is_offline: false
   - rid: us-streaming-2
     id: us-unitedstates-siliconvalley-10-102-129-252
@@ -16683,18 +18505,21 @@ data:
       - 154.21.216.41
       - 154.21.216.42
     is_offline: false
-  - rid: us_silicon_valley
+  - rid: us-streaming-2
     id: us-unitedstates-siliconvalley-14-191-096-255
     cn: siliconvalley414
     ip_meta:
       - 191.96.255.3
     ip_wg:
+      - 191.96.255.6
       - 191.96.255.7
       - 191.96.255.8
+      - 191.96.255.14
       - 191.96.255.16
       - 191.96.255.18
       - 191.96.255.24
       - 191.96.255.29
+      - 191.96.255.31
       - 191.96.255.34
       - 191.96.255.35
       - 191.96.255.37
@@ -16724,10 +18549,12 @@ data:
       - 191.96.255.56
       - 191.96.255.64
       - 191.96.255.67
+      - 191.96.255.68
       - 191.96.255.76
       - 191.96.255.77
       - 191.96.255.83
       - 191.96.255.88
+      - 191.96.255.90
     is_offline: false
   - rid: us_silicon_valley
     id: us-unitedstates-siliconvalley-16-154-021-216
@@ -16762,6 +18589,7 @@ data:
       - 191.96.255.126
       - 191.96.255.133
       - 191.96.255.134
+      - 191.96.255.140
     is_offline: false
   - rid: us_silicon_valley
     id: us-unitedstates-siliconvalley-17-154-021-216
@@ -16796,7 +18624,9 @@ data:
       - 191.96.255.168
       - 191.96.255.172
       - 191.96.255.176
+      - 191.96.255.183
       - 191.96.255.187
+      - 191.96.255.188
     is_offline: false
   - rid: us_silicon_valley
     id: us-unitedstates-siliconvalley-18-154-021-216
@@ -16917,10 +18747,14 @@ data:
     id: us-unitedstates-southcarolina-02-084-239-007
     cn: southcarolina402
     ip_meta:
+      - 84.239.7.129
       - 84.239.7.130
     ip_wg:
       - 84.239.7.132
+      - 84.239.7.139
       - 84.239.7.146
+      - 84.239.7.150
+      - 84.239.7.160
     is_offline: false
   - rid: us_south_dakota-pf
     id: us-unitedstates-southdakota-01-154-006-092
@@ -16961,10 +18795,14 @@ data:
     id: us-unitedstates-southdakota-02-084-239-050
     cn: southdakota402
     ip_meta:
+      - 84.239.50.1
       - 84.239.50.2
     ip_wg:
+      - 84.239.50.5
       - 84.239.50.6
       - 84.239.50.9
+      - 84.239.50.14
+      - 84.239.50.15
     is_offline: false
   - rid: us_tennessee-pf
     id: us-unitedstates-tennessee-01-154-006-083
@@ -16990,7 +18828,7 @@ data:
       - 154.6.83.18
       - 154.6.83.19
       - 154.6.83.20
-    is_offline: false
+    is_offline: true
   - rid: us_tennessee-pf
     id: us-unitedstates-tennessee-02-084-239-010
     cn: tennessee402
@@ -17035,10 +18873,14 @@ data:
     id: us-unitedstates-vermont-02-084-239-045
     cn: vermont402
     ip_meta:
+      - 84.239.45.129
       - 84.239.45.130
     ip_wg:
       - 84.239.45.133
+      - 84.239.45.141
+      - 84.239.45.142
       - 84.239.45.145
+      - 84.239.45.148
     is_offline: false
   - rid: us_virginia-pf
     id: us-unitedstates-virginia-01-154-006-083
@@ -17075,6 +18917,16 @@ data:
     ip_wg:
       - 84.239.10.133
       - 84.239.10.146
+    is_offline: false
+  - rid: us_virginia-pf
+    id: us-unitedstates-virginia-03-084-239-010
+    cn: virginia403
+    ip_meta:
+      - 84.239.10.129
+    ip_wg:
+      - 84.239.10.130
+      - 84.239.10.131
+      - 84.239.10.149
     is_offline: false
   - rid: us_washington_dc
     id: us-unitedstates-washington-32-154-003-044
@@ -17229,6 +19081,14 @@ data:
       - 181.214.94.162
     ip_wg:
       - 181.214.94.183
+    is_offline: false
+  - rid: us_washington_dc
+    id: us-unitedstates-washington-38-091-124-017
+    cn: washington438
+    ip_meta:
+      - 91.124.17.193
+    ip_wg:
+      - 91.124.17.214
     is_offline: false
   - rid: us_washington_dc
     id: us-unitedstates-washington-38-154-003-044
@@ -17386,6 +19246,7 @@ data:
       - 102.129.235.98
     ip_wg:
       - 102.129.235.104
+      - 102.129.235.115
     is_offline: false
   - rid: us_washington_dc
     id: us-unitedstates-washington-44-038-070-011
@@ -17415,6 +19276,7 @@ data:
       - 102.129.235.130
     ip_wg:
       - 102.129.235.131
+      - 102.129.235.132
       - 102.129.235.138
       - 102.129.235.144
       - 102.129.235.152
@@ -17508,6 +19370,15 @@ data:
       - 102.129.235.224
     ip_wg:
       - 102.129.235.225
+      - 102.129.235.253
+    is_offline: false
+  - rid: us_washington_dc
+    id: us-unitedstates-washington-51-079-127-132
+    cn: washington451
+    ip_meta:
+      - 79.127.132.188
+    ip_wg:
+      - 79.127.132.230
     is_offline: false
   - rid: us_washington_dc
     id: us-unitedstates-washington-51-149-018-024
@@ -17531,6 +19402,15 @@ data:
       - 149.18.24.242
     is_offline: false
   - rid: us_washington_dc
+    id: us-unitedstates-washington-52-079-127-132
+    cn: washington452
+    ip_meta:
+      - 79.127.132.129
+    ip_wg:
+      - 79.127.132.159
+      - 79.127.132.179
+    is_offline: false
+  - rid: us_washington_dc
     id: us-unitedstates-washington-52-149-018-024
     cn: washington452
     ip_meta:
@@ -17543,6 +19423,15 @@ data:
       - 149.18.24.164
       - 149.18.24.175
       - 149.18.24.184
+    is_offline: false
+  - rid: us_washington_dc
+    id: us-unitedstates-washington-72-037-019-220
+    cn: washington472
+    ip_meta:
+      - 37.19.220.1
+    ip_wg:
+      - 37.19.220.13
+      - 37.19.220.23
     is_offline: false
   - rid: us_west_virginia-pf
     id: us-unitedstates-westvirginia-01-154-006-084
@@ -17581,10 +19470,33 @@ data:
     id: us-unitedstates-westvirginia-02-084-239-012
     cn: westvirginia402
     ip_meta:
+      - 84.239.12.1
       - 84.239.12.2
     ip_wg:
+      - 84.239.12.7
+      - 84.239.12.8
       - 84.239.12.15
       - 84.239.12.19
+    is_offline: false
+  - rid: us_west_virginia-pf
+    id: us-unitedstates-westvirginia-03-084-239-012
+    cn: westvirginia403
+    ip_meta:
+      - 84.239.12.22
+    ip_wg:
+      - 84.239.12.24
+      - 84.239.12.25
+      - 84.239.12.28
+    is_offline: false
+  - rid: us-wilmington
+    id: us-unitedstates-wilmington-01-084-239-043
+    cn: wilmington401
+    ip_meta:
+      - 84.239.43.129
+    ip_wg:
+      - 84.239.43.135
+      - 84.239.43.151
+      - 84.239.43.155
     is_offline: false
   - rid: us-wilmington
     id: us-unitedstates-wilmington-01-149-057-016
@@ -17622,6 +19534,15 @@ data:
       - 149.57.16.158
       - 149.57.16.159
       - 149.57.16.160
+    is_offline: false
+  - rid: us-wilmington
+    id: us-unitedstates-wilmington-02-084-239-043
+    cn: wilmington402
+    ip_meta:
+      - 84.239.43.160
+    ip_wg:
+      - 84.239.43.165
+      - 84.239.43.187
     is_offline: false
   - rid: us-wilmington
     id: us-unitedstates-wilmington-02-149-057-016
@@ -17700,10 +19621,24 @@ data:
     id: us-unitedstates-wisconsin-02-084-239-027
     cn: wisconsin402
     ip_meta:
+      - 84.239.27.1
       - 84.239.27.2
     ip_wg:
       - 84.239.27.5
+      - 84.239.27.7
       - 84.239.27.12
+      - 84.239.27.13
+      - 84.239.27.17
+    is_offline: false
+  - rid: us_wisconsin-pf
+    id: us-unitedstates-wisconsin-03-084-239-027
+    cn: wisconsin403
+    ip_meta:
+      - 84.239.27.22
+    ip_wg:
+      - 84.239.27.30
+      - 84.239.27.33
+      - 84.239.27.35
     is_offline: false
   - rid: us_wyoming-pf
     id: us-unitedstates-wyoming-01-154-006-093
@@ -17739,6 +19674,26 @@ data:
       - 154.6.93.31
       - 154.6.93.32
     is_offline: false
+  - rid: us_wyoming-pf
+    id: us-unitedstates-wyoming-02-084-239-050
+    cn: wyoming402
+    ip_meta:
+      - 84.239.50.129
+    ip_wg:
+      - 84.239.50.138
+      - 84.239.50.141
+      - 84.239.50.150
+    is_offline: false
+  - rid: uy_uruguay-pf
+    id: uy-uruguay-01-045-154-154
+    cn: uruguay401
+    ip_meta:
+      - 45.154.154.2
+    ip_wg:
+      - 45.154.154.6
+      - 45.154.154.25
+      - 45.154.154.26
+    is_offline: false
   - rid: uy_uruguay-pf
     id: uy-uruguay-01-084-247-101
     cn: uruguay401
@@ -17747,6 +19702,24 @@ data:
     ip_wg:
       - 84.247.101.21
       - 84.247.101.24
+    is_offline: false
+  - rid: uy_uruguay-pf
+    id: uy-uruguay-02-045-154-154
+    cn: uruguay402
+    ip_meta:
+      - 45.154.154.31
+    ip_wg:
+      - 45.154.154.45
+      - 45.154.154.46
+      - 45.154.154.48
+    is_offline: false
+  - rid: venezuela
+    id: ve-venezuela-02-095-181-237
+    cn: venezuela402
+    ip_meta:
+      - 95.181.237.51
+    ip_wg:
+      - 95.181.237.57
     is_offline: false
   - rid: venezuela
     id: ve-venezuela-03-095-181-237
@@ -17879,6 +19852,16 @@ data:
       - 149.18.84.72
     is_offline: false
   - rid: vietnam
+    id: vn-vietnam-03-173-239-247
+    cn: vietnam403
+    ip_meta:
+      - 173.239.247.128
+    ip_wg:
+      - 173.239.247.130
+      - 173.239.247.133
+      - 173.239.247.135
+    is_offline: false
+  - rid: vietnam
     id: vn-vietnam-04-149-018-084
     cn: vietnam404
     ip_meta:
@@ -17896,6 +19879,16 @@ data:
       - 149.18.84.47
       - 149.18.84.48
       - 149.18.84.49
+    is_offline: false
+  - rid: vietnam
+    id: vn-vietnam-04-173-239-247
+    cn: vietnam404
+    ip_meta:
+      - 173.239.247.152
+    ip_wg:
+      - 173.239.247.157
+      - 173.239.247.164
+      - 173.239.247.168
     is_offline: false
   - rid: za
     id: za-southafrica-johannesburg-07-196-240-127
@@ -18009,4 +20002,4 @@ data:
       - 154.47.30.58
       - 154.47.30.59
     is_offline: false
-updated: 1699275967
+updated: 1770705442

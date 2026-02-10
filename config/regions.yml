@@ -21,7 +21,7 @@ data:
     geo: true
   - id: au_adelaide-pf
     name: AU Adelaide
-    dns: au-adelaide-pf.privacy.network
+    dns: au-adelaide.pvt.site
     port_forward: true
     geo: false
   - id: au_australia-so
@@ -36,12 +36,12 @@ data:
     geo: false
   - id: aus
     name: AU Sydney
-    dns: au-sydney.privacy.network
+    dns: au-sydney.pvt.site
     port_forward: true
     geo: false
   - id: aus_melbourne
     name: AU Melbourne
-    dns: aus-melbourne.privacy.network
+    dns: au-melbourne.pvt.site
     port_forward: true
     geo: false
   - id: aus_perth
@@ -99,6 +99,11 @@ data:
     dns: ca-ontario.privacy.network
     port_forward: true
     geo: false
+  - id: ca_ontario-so
+    name: CA Ontario Streaming Optimized
+    dns: ca-ontario-so.privacy.network
+    port_forward: true
+    geo: false
   - id: ca_toronto
     name: CA Toronto
     dns: ca-toronto.privacy.network
@@ -116,7 +121,7 @@ data:
     geo: true
   - id: china
     name: CN China
-    dns: china.privacy.network
+    dns: china.pvt.site
     port_forward: true
     geo: true
   - id: cyprus
@@ -131,12 +136,17 @@ data:
     geo: false
   - id: de-frankfurt
     name: DE Frankfurt
-    dns: de-frankfurt.privacy.network
+    dns: de-frankfurt.pvt.site
     port_forward: true
     geo: false
   - id: de_berlin
     name: DE Berlin
-    dns: de-berlin.privacy.network
+    dns: de-berlin.pvt.site
+    port_forward: true
+    geo: false
+  - id: de_germany-so
+    name: DE Germany Streaming Optimized
+    dns: de-germany-so.privacy.network
     port_forward: true
     geo: false
   - id: denmark
@@ -171,7 +181,7 @@ data:
     geo: true
   - id: es-valencia
     name: ES Valencia
-    dns: es-valencia.privacy.network
+    dns: es-valencia.pvt.site
     port_forward: true
     geo: false
   - id: fi
@@ -196,7 +206,7 @@ data:
     geo: true
   - id: gr
     name: GR Greece
-    dns: gr.privacy.network
+    dns: greece.pvt.site
     port_forward: true
     geo: false
   - id: greenland
@@ -226,7 +236,7 @@ data:
     geo: true
   - id: ireland
     name: IE Ireland
-    dns: ireland.privacy.network
+    dns: ireland.pvt.site
     port_forward: true
     geo: false
   - id: is
@@ -326,7 +336,7 @@ data:
     geo: true
   - id: mk
     name: MK North Macedonia
-    dns: mk.privacy.network
+    dns: north-macedonia.pvt.site
     port_forward: true
     geo: false
   - id: monaco
@@ -357,6 +367,11 @@ data:
   - id: nl_amsterdam
     name: NL Netherlands
     dns: nl-amsterdam.privacy.network
+    port_forward: true
+    geo: false
+  - id: nl_netherlands-so
+    name: NL Netherlands Streaming Optimized
+    dns: nl-netherlands-so.privacy.network
     port_forward: true
     geo: false
   - id: no
@@ -406,7 +421,7 @@ data:
     geo: true
   - id: ro
     name: RO Romania
-    dns: ro.privacy.network
+    dns: romania.pvt.site
     port_forward: true
     geo: false
   - id: rs
@@ -441,7 +456,7 @@ data:
     geo: false
   - id: slovenia
     name: SI Slovenia
-    dns: slovenia.privacy.network
+    dns: slovenia.pvt.site
     port_forward: true
     geo: false
   - id: sofia
@@ -516,7 +531,17 @@ data:
     geo: true
   - id: us-honolulu
     name: US Honolulu
-    dns: us-honolulu.privacy.network
+    dns: us-honolulu.pvt.site
+    port_forward: false
+    geo: true
+  - id: us-indiana
+    name: US Indiana
+    dns: us-indiana.pvt.site
+    port_forward: false
+    geo: true
+  - id: us-kentucky
+    name: US Kentucky
+    dns: us-kentucky.pvt.site
     port_forward: false
     geo: true
   - id: us-newjersey
@@ -524,6 +549,11 @@ data:
     dns: us-newjersey.privacy.network
     port_forward: false
     geo: false
+  - id: us-salt-lake-city
+    name: US Salt Lake City
+    dns: us-salt-lake-city.pvt.site
+    port_forward: false
+    geo: true
   - id: us-saltlakecity
     name: US Salt Lake City
     dns: us-saltlakecity.privacy.network
@@ -539,6 +569,11 @@ data:
     dns: us-streaming-2.privacy.network
     port_forward: false
     geo: false
+  - id: us-tennessee
+    name: US Tennessee
+    dns: us-tennessee.pvt.site
+    port_forward: false
+    geo: true
   - id: us-wilmington
     name: US Wilmington
     dns: us-wilmington.privacy.network
@@ -814,4 +849,4 @@ data:
     dns: zagreb.privacy.network
     port_forward: true
     geo: false
-updated: 1699275967
+updated: 1770705442

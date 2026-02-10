@@ -14,9 +14,9 @@
         "@inquirer/prompts": "^8.2.0",
         "@noble/curves": "^2.0.1",
         "@noble/ed25519": "^3.0.0",
-        "got": "^14.6.6",
         "https-proxy-agent": "^7.0.1",
         "ini": "^6.0.0",
+        "undici": "^7.21.0",
         "yaml": "^2.2.0"
     }
 }

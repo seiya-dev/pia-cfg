@@ -2,10 +2,9 @@ import os from 'os';
 import fs from 'fs';
 
 // custom
-import hlp from './modules/helper.js';
-import ask from './modules/ask.js';
-import genwgkeys from './modules/genkeys.js';
 import req from './modules/req.js';
+import hlp from './modules/helper.js';
+import genwgkeys from './modules/genkeys.js';
 import { ufiles, data } from './modules/ufiles.js';
 
 let test10net = false;
@@ -18,7 +17,7 @@ if(!test10net){
 
 try{
     const getIp = await req('https://freeipapi.com/api/json');
-    const extIp = JSON.parse(getIp.res.body).ipAddress;
+    const extIp = JSON.parse(getIp.res.body_txt).ipAddress;
     console.info(':info: Your ExtIP:', extIp);
     const findSrv = data.srv.data.find(s => {
         for(const wi of s.ip_wg){
@@ -48,7 +47,7 @@ try{
     // do request
     console.log(':info: Getting signature...');
     const reqSign = await req(reqUrl, reqOpts);
-    const signData = JSON.parse(reqSign.res.body);
+    const signData = JSON.parse(reqSign.res.body_txt);
     const portData = JSON.parse(atob(signData.payload));
     console.log(`:info: Your srv url: http://${extIp}:${portData.port}/`);
     await bindPort(extIp, findSrv.cn, signData);
@@ -78,7 +77,7 @@ async function bindPort(extIp, cn, signData){
     
     // do request
     const doBind = await req(reqUrl, reqOpts);
-    console.log(JSON.parse(doBind.res.body));
+    console.log(JSON.parse(doBind.res.body_txt));
     
     await hlp.sleep(14*60*1000);
     await bindPort(extIp, cn, signData);

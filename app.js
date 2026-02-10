@@ -460,6 +460,7 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         }
         
         await wgApiSelServ(curRegion, curServer);
+        */
         return;
         
         // console.log(reqKey.error.options);
@@ -470,7 +471,6 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         //     `--data-urlencode "pubkey=${wgkeys.publicKey}" "https://${serverCn}:1337/addKey"`,
         // ].join(' '));
         // wmic path win32_networkadapter where description="WindscribeWireguard" get ConfigManagerErrorCode
-        */
     }
     else{
         const reqKeyBody = await reqKey.clone().text();
@@ -533,7 +533,6 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         await wgApiSelServ(curRegion, curServer);
         return;
     }
-    
 }
 
 /*

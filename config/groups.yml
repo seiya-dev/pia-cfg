@@ -1,22 +1,22 @@
+meta:
+  - 443
+  - 8080
+shadowsocks:
+  - 443
+ikev2:
+  - 500
+  - 4500
+wireguard:
+  - 1337
 openvpn_udp:
   - 8080
   - 853
   - 123
   - 53
-wireguard:
-  - 1337
 openvpn_tcp:
   - 80
   - 443
   - 853
   - 8443
-ikev2:
-  - 500
-  - 4500
 socks:
   - 1080
-shadowsocks:
-  - 443
-meta:
-  - 443
-  - 8080

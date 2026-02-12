@@ -186,7 +186,7 @@ data:
     geo: false
   - id: fi
     name: FI Helsinki
-    dns: fi.privacy.network
+    dns: fi-helsinki.pvt.site
     port_forward: true
     geo: false
   - id: fi_2
@@ -849,4 +849,4 @@ data:
     dns: zagreb.privacy.network
     port_forward: true
     geo: false
-updated: 1770720773
+updated: 1770877331

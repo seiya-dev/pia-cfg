@@ -533,7 +533,11 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
             54356e9326a4c76dabfb497d451a3a1d2dbd46ec283d255799f72dfe878ae25892e25a2542d3ca9018394d8ca35b53ccd949
             47a8
         `
-        wgconf.push(`I1 = <b 0x${awg_i0_hex.replace(/\s+/g, '')}>`);
+        // wgconf.push(`I1 = <b 0x${awg_i0_hex.replace(/\s+/g, '')}>`);
+        
+        wgconf.push(`Id = ozon.ru`);
+        wgconf.push(`Ip = quic`);
+        wgconf.push(`Ib = curl`);
         
         wgconf.push('');
         wgconf.push('[Peer]');

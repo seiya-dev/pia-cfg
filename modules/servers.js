@@ -14,7 +14,6 @@ async function getServerList(api, skipPing, _reg, _srv, _wgi, _wgp){
     const jreg = JSON.parse(dsrv[0]).regions;
     
     // indexed data
-    const igrp = {};
     const ireg = [];
     const isrv = [];
     
@@ -24,9 +23,11 @@ async function getServerList(api, skipPing, _reg, _srv, _wgi, _wgp){
     const iwgu = {};
     
     // index groups
-    for(const g of Object.keys(jgrp)){
-        igrp[jgrp[g][0].name] = jgrp[g][0].ports;
-    }
+    const igrp = Object.fromEntries(
+        Object.keys(jgrp)
+            .sort((a, b) => jgrp[a][0].name.localeCompare(jgrp[b][0].name))
+            .map(g => [jgrp[g][0].name, jgrp[g][0].ports])
+    );
     
     // add cc to region name jreg data
     for(let i in jreg){

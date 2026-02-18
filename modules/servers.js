@@ -74,7 +74,7 @@ async function getServerList(api, skipPing, _reg, _srv, _wgi, _wgp){
             
             if(!skipPing){
                 const srvStatus = await req(`http://${metaSrv}:443`, {});
-                latency = srvStatus.error.timings.end - srvStatus.error.timings.start;
+                latency = srvStatus.duration_ms;
                 latency = isNaN(latency) ? maxPing : (latency/1000);
                 latency = Number(latency.toFixed(3));
                 latency = latency > maxPing ? maxPing : latency;

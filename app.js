@@ -291,9 +291,9 @@ async function wgApiSelServ(selReg = '', selServ = ''){
     for(const s of data.srv.data){
         let regId = s.id.split('-')[0];
         
-        if(s.ip_meta.length != 1){
-            console.log(`[WARN] ${s.id} has not 1 meta server!`);
-        }
+        // if(s.ip_meta.length != 1){
+        //     console.log(`[WARN] ${s.id} has not 1 meta server!`);
+        // }
         
         if(selReg == regId){
             const cs = {};
@@ -406,7 +406,7 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
     
     // do request
     console.log('[INFO] Publishing key...');
-    const reqKey = await fetch(reqUrl, reqOpts);
+    const reqKey = await req(reqUrl, reqOpts);
     
     // reqOpts.url = reqUrl;
     
@@ -426,6 +426,7 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
     
     if(reqKey.error){
         console.log('TODO: Rework reqKey.error');
+        console.log(reqKey.error)
         /*
         if(reqKey.error.name == 'RequestError' && reqKey.error.code == 'ETIMEDOUT'){
             console.log('[ERROR] Server is offline... Try another server.');
@@ -473,7 +474,7 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         // wmic path win32_networkadapter where description="WindscribeWireguard" get ConfigManagerErrorCode
     }
     else{
-        const reqKeyBody = await reqKey.clone().text();
+        const reqKeyBody = reqKey.res.body_txt;
         const wgdata = JSON.parse(reqKeyBody);
         wgdata.address = `${wgdata.peer_ip}/32`;
         wgdata.endpoint = `${wgdata.server_ip}:${wgdata.server_port}`;
@@ -535,9 +536,9 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         `
         wgconf.push(`I1 = <b 0x${awg_i0_hex.replace(/\s+/g, '')}>`);
         
-        wgconf.push(`Id = ozon.ru`);
-        wgconf.push(`Ip = quic`);
-        wgconf.push(`Ib = curl`);
+        // wgconf.push(`Id = ozon.ru`);
+        // wgconf.push(`Ip = quic`);
+        // wgconf.push(`Ib = curl`);
         
         wgconf.push('');
         wgconf.push('[Peer]');

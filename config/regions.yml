@@ -123,7 +123,7 @@ data:
     name: CN China
     dns: china.pvt.site
     port_forward: true
-    geo: true
+    geo: false
   - id: cyprus
     name: CY Cyprus
     dns: cyprus.privacy.network
@@ -573,7 +573,7 @@ data:
     name: US Tennessee
     dns: us-tennessee.pvt.site
     port_forward: false
-    geo: true
+    geo: false
   - id: us-wilmington
     name: US Wilmington
     dns: us-wilmington.privacy.network
@@ -849,4 +849,4 @@ data:
     dns: zagreb.privacy.network
     port_forward: true
     geo: false
-updated: 1770877331
+updated: 1771393505

@@ -536,16 +536,11 @@ async function publishKey(curRegion = '', curServer = '', curData = {}, privKey 
         `
         wgconf.push(`I1 = <b 0x${awg_i0_hex.replace(/\s+/g, '')}>`);
         
-        // wgconf.push(`Id = ozon.ru`);
-        // wgconf.push(`Ip = quic`);
-        // wgconf.push(`Ib = curl`);
-        
         wgconf.push('');
         wgconf.push('[Peer]');
         wgconf.push(`PublicKey = ${wgdata.server_key}`);
         wgconf.push(`Endpoint = ${wgdata.endpoint}`);
-        // wgconf.push(`PresharedKey = `); // PIA not used this
-        wgconf.push('AllowedIPs = 0.0.0.0/1, 128.0.0.0/1'); // 0.0.0.0/0 not work properly with some apps
+        wgconf.push('AllowedIPs = 0.0.0.0/1, 128.0.0.0/1');
         wgconf.push('PersistentKeepalive = 25');
         wgconf.push('');
         
